@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/brandon_atkinson_portfolio/static/css/main.8ec046be.css",
+    "main.js": "/brandon_atkinson_portfolio/static/js/main.265e0c4c.js",
+    "static/js/453.5af0a012.chunk.js": "/brandon_atkinson_portfolio/static/js/453.5af0a012.chunk.js",
+    "static/media/LastOrdersPortf.png": "/brandon_atkinson_portfolio/static/media/LastOrdersPortf.949e13b0df29edaedec4.png",
+    "static/media/brandon_cv.pdf": "/brandon_atkinson_portfolio/static/media/brandon_cv.1209a0ed08902c8937c6.pdf",
+    "static/media/index_me.png": "/brandon_atkinson_portfolio/static/media/index_me.d0f04e246fac3991d31d.png",
+    "static/media/FDMPortf.png": "/brandon_atkinson_portfolio/static/media/FDMPortf.5850d3a873bdcab41ef3.png",
+    "static/media/tictactoePortf.png": "/brandon_atkinson_portfolio/static/media/tictactoePortf.fe44fd560856b05a0e7d.png",
+    "static/media/projectsimg.png": "/brandon_atkinson_portfolio/static/media/projectsimg.7302e3ab3147adc73cd2.png",
+    "static/media/githubLogo.png": "/brandon_atkinson_portfolio/static/media/githubLogo.5a487d444794b08b86cf.png",
+    "static/media/blackjackPortf.png": "/brandon_atkinson_portfolio/static/media/blackjackPortf.126439560df2b457e3c3.png",
+    "static/media/linkedInLogo.png": "/brandon_atkinson_portfolio/static/media/linkedInLogo.0ab8a13bab9d47495274.png",
+    "static/media/backendimg.png": "/brandon_atkinson_portfolio/static/media/backendimg.ca289e98487850dc3a96.png",
+    "static/media/frontendimg.png": "/brandon_atkinson_portfolio/static/media/frontendimg.236bc5f1e9736860170c.png",
+    "index.html": "/brandon_atkinson_portfolio/index.html",
+    "main.8ec046be.css.map": "/brandon_atkinson_portfolio/static/css/main.8ec046be.css.map",
+    "main.265e0c4c.js.map": "/brandon_atkinson_portfolio/static/js/main.265e0c4c.js.map",
+    "453.5af0a012.chunk.js.map": "/brandon_atkinson_portfolio/static/js/453.5af0a012.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8ec046be.css",
+    "static/js/main.265e0c4c.js"
+  ]
+}
