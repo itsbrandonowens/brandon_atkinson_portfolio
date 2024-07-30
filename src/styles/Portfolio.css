@@ -1,0 +1,103 @@
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+/* The CSS Below is for Mobile in portrait orientation*/
+@media only screen and (max-width: 649px) {}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+/* The CSS Below is for Mobile in landscape orientation */
+@media only screen and (min-width:650px) and (max-width:993px) and (orientation: landscape) {}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+/* The CSS Below is for Desktop and Larger Devices */
+@media only screen and (min-width:992px) {
+
+  .portfolio_container {
+    margin-top: 15%;
+    height: 70vh;
+  }
+
+  .portfolio_title {
+    font-size: 2vw;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+  }
+
+  .about_line_1 {
+    width: 10%;
+    height: 0.3%;
+    background-color: black;
+    position: absolute;
+    margin-top: -1%;
+    left: 45%;
+  }
+
+  .about_line_2 {
+    width: 6%;
+    height: 0.3%;
+    background-color: black;
+    position: absolute;
+    margin-top: -0.5%;
+    left: 47%;
+  }
+
+  .portfolio_grid {
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 80%;
+    margin-left: 13%;
+  }
+
+
+  .image_portfolio {
+    position: absolute;
+    width: 15%;
+    filter: drop-shadow(0px 0px 5px #000000);
+    
+  }
+
+  .portfolio_hovered{
+    position:absolute;
+    opacity:0;
+    z-index:11;
+    background-color:rgba(0, 0, 0, 0.5);
+    width:15%;
+    height:auto;
+    padding-bottom:1.5%;
+    transition:0.2s ease-in-out
+    
+  }
+  .portfolio_hovered:hover{
+    opacity:1;
+  }
+
+  .portfolio_image_text {
+    color:white;
+    font-size:1.2vw;
+    margin-top:60%;
+    margin-left:5%;
+    font-weight:500;
+  }
+
+  .portfolio_image_link {
+    color:white;
+    fill:white;
+    font-size:1vw;
+    border: solid 1.5px white;
+    border-radius:100px;
+    width:10%;
+    padding:1.5%;
+    margin-top:-3%;
+    margin-left:5%;
+  }
+
+
+
+  
+
+  
+
+
+
+
+}

@@ -1,0 +1,95 @@
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+/* The CSS Below is for Mobile in portrait orientation*/
+@media only screen and (max-width: 649px) {
+    
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+/* The CSS Below is for Mobile in landscape orientation */
+@media only screen and (min-width:650px) and (max-width:993px) and (orientation: landscape) {
+
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+/* The CSS Below is for Desktop and Larger Devices */
+@media only screen and (min-width:992px) {
+
+    .about_container{
+        margin-top:10%;
+        height:60vh;
+        
+    }
+    .about_title {
+        font-size:2vw;
+        text-align:center;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 500;
+    }
+    .about_line_1{
+        width:10%;
+        height:0.3%;
+        background-color:black;
+        position:absolute;
+        margin-top:-1%;
+        left:45%;
+    }
+    .about_line_2{
+        width:6%;
+        height:0.3%;
+        background-color:black;
+        position:absolute;
+        margin-top:-0.5%;
+        left:47%;
+    }
+
+    .about_text {
+        font-size:1vw;
+        text-align:center;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 500;
+        justify-content:center;
+        width:40%;
+        margin-left:30%;
+        margin-top:4%;
+        
+    }
+    
+    .lastOrdersLink {
+        text-decoration:none;
+        color:rgb(39, 14, 201);
+    }
+
+    
+
+    .lastOrdersLink:hover{
+        text-decoration:none;
+        color:rgb(2, 131, 252);
+    }
+
+    .download_cv_button {
+        position:absolute;
+        margin-top:2%;
+        margin-left:45%;
+        padding-top: 1%;
+        padding-bottom:1%;
+        width:10%;
+        border: solid black;
+        outline: none;
+        background-color: #111111;
+        color: #eee;
+        border-radius: 7px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.25s ease-out;
+        font-size:1vw;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    .download_cv_button:hover {
+        transform: translateY(-3px);
+      }
+      
+    
+
+
+}
