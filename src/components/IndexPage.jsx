@@ -39,8 +39,8 @@ const IndexPage = () => {
     return (
 
         <div className="index_container" >
-            <div className="navbar">
-                <li className="navbar_container">
+            <div className="navbar_container">
+                <li className="navbar_list">
                     <ul className="navbar_item" onClick={homeHandler}> <p className="navbar_text"> HOME </p></ul>
                     <ul className="navbar_item" onClick={aboutHandler}> <p className="navbar_text"> ABOUT </p></ul>
                     <ul className="navbar_item" onClick={serviceHandler}> <p className="navbar_text"> SERVICE </p></ul>

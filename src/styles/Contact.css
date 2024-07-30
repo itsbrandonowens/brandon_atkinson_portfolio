@@ -1,10 +1,272 @@
 /* --------------------------------------------------------------------------------------------------------------------------------------- */
 /* The CSS Below is for Mobile in portrait orientation*/
-@media only screen and (max-width: 649px) {}
+@media only screen and (max-width: 649px) {
+    .contact_container {
+        margin-top: 30%;
+        height: 200vw;
+    }
+
+    .about_line_1{
+        width:40%;
+        height:0.5%;
+        background-color:black;
+        position:absolute;
+        margin-top:-5%;
+        left:30%;
+
+    }
+    .about_line_2{
+        width:20%;
+        height:0.5%;
+        background-color:black;
+        position:absolute;
+        margin-top:-2.5%;
+        left:40%;
+    }
+
+    .contact_title {
+        font-size: 8vw;
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 500;
+    }
+
+    .contact_grid {
+        display:grid;
+        grid-template-rows: 70% 30%;
+        row-gap: 5%;
+    }
+
+    .contact_logo {
+        width:100%;
+
+    }
+    .contact_socials{
+        margin-top:20%;
+    }
+
+    .contact_social_text{
+        font-family: "Open Sans", sans-serif;
+        font-weight:500;   
+        font-size:5vw;
+        margin-top:12%;
+    }
+
+    .socials_individual{
+        text-decoration: none;
+        color:black;
+        display:grid;
+        width:80%; 
+        margin-left:15%;
+        grid-template-columns: 20% 50%;
+        column-gap:5%;
+        margin-bottom:5%;
+        
+    }
+    .socials_individual:hover {
+        color:#6e6e6e;
+    }
+
+
+    .contact_form {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 5%;  
+        padding:2%;
+        
+    }
+
+    .contact_name {
+        width: 30%;
+        border: none;
+        border-bottom: solid #858585;
+        font-family: "Open Sans", sans-serif;
+        font-size:2.5vw;
+    }
+
+    .contact_email {
+        width: 55%;
+        margin-left: 5%;
+        border: none;
+        border-bottom: solid #858585;
+        font-family: "Open Sans", sans-serif;
+        font-size:2.5vw;
+    }
+
+    .contact_message {
+        margin-top: 5%;
+        height: 30vh;
+        width: 96%;
+        border: none;
+        border-bottom: solid #858585;
+        font-family: "Open Sans", sans-serif;
+        font-size:3vw;
+        overflow:hidden;
+        display:block;
+        box-sizing: border-box;
+        resize: none;
+
+    }
+
+
+    .contact_submit {
+        position: absolute;
+        margin-top: 8%;
+        left: 30%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        width: 40%;
+        border: solid black;
+        outline: none;
+        background-color: #111111;
+        color: #eee;
+        border-radius: 7px;
+        font-weight: 500;
+        font-size: 4vw;
+        cursor: pointer;
+        transition: all 0.25s ease-out;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    .contact_submit:hover {
+        transform: translateY(-3px);
+    }
+
+
+}
 
 /* --------------------------------------------------------------------------------------------------------------------------------------- */
 /* The CSS Below is for Mobile in landscape orientation */
-@media only screen and (min-width:650px) and (max-width:993px) and (orientation: landscape) {}
+@media only screen and (min-width:650px) and (max-width:993px) and (orientation: landscape) {
+
+    .contact_container {
+        margin-top: 8%;
+        height: 100vh;
+    }
+
+    .about_line_1 {
+        width: 10%;
+        height: 0.3%;
+        background-color: black;
+        position: absolute;
+        margin-top: -1%;
+        left: 45%;
+    }
+
+    .about_line_2 {
+        width: 6%;
+        height: 0.3%;
+        background-color: black;
+        position: absolute;
+        margin-top: -0.5%;
+        left: 47%;
+    }
+
+    .contact_title {
+        font-size: 2vw;
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 500;
+    }
+
+    .contact_grid {
+        display:grid;
+        grid-template-columns: 70% 30%;
+        column-gap: 5%;;
+    }
+
+    .contact_logo {
+        width:10%;
+    }
+
+    .contact_socials{
+
+        margin-top:25%;
+    }
+
+    .contact_social_text{
+        font-family: "Open Sans", sans-serif;
+        font-weight:500;
+        margin-bottom:20%;
+        margin-top:-1%;
+        margin-left:1%;
+    }
+
+    .socials_individual{
+        text-decoration: none;
+        color:black;
+    }
+    .socials_individual:hover {
+        color:#6e6e6e;
+    }
+
+
+    .contact_form {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 5%;  
+        padding:2%;
+        
+    }
+
+    .contact_name {
+        width: 48%;
+        border: none;
+        border-bottom: solid #858585;
+        font-family: "Open Sans", sans-serif;
+        font-size:1.2vw;
+    }
+
+    .contact_email {
+        width: 48%;
+        margin-left: 1%;
+        border: none;
+        border-bottom: solid #858585;
+        font-family: "Open Sans", sans-serif;
+        font-size:1.2vw;
+    }
+
+    .contact_message {
+        margin-top: 1%;
+        height: 40vh;
+        width: 96%;
+        border: none;
+        border-bottom: solid #858585;
+        font-family: "Open Sans", sans-serif;
+        font-size:1.2vw;
+        overflow:hidden;
+        display:block;
+        box-sizing: border-box;
+        resize: none;
+
+    }
+
+
+    .contact_submit {
+        position: absolute;
+        margin-top: 5%;
+        left: 32%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        width: 10%;
+        border: solid black;
+        outline: none;
+        background-color: #111111;
+        color: #eee;
+        border-radius: 7px;
+        font-weight: 500;
+        font-size: 1vw;
+        cursor: pointer;
+        transition: all 0.25s ease-out;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    .contact_submit:hover {
+        transform: translateY(-3px);
+    }
+
+
+}
 
 /* --------------------------------------------------------------------------------------------------------------------------------------- */
 /* The CSS Below is for Desktop and Larger Devices */
@@ -112,9 +374,6 @@
 
     }
 
-    .contact_name:focus {
-        border: none;
-    }
 
     .contact_submit {
         position: absolute;
