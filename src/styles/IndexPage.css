@@ -3,17 +3,44 @@
 @media only screen and (max-width: 649px) {
     .index_container {
         height: 120vw;
-        background:rgb(226, 226, 226) ;
+        background: rgb(226, 226, 226);
         filter: drop-shadow(0px 0px 5px #000000);
     }
-
+    
     .index_image_me {
         width: 50%;
         position: absolute;
-        top:2%;
-        left:2%;
+        top: 2%;
+        left: 2%;
         filter: drop-shadow(0px 0px 5px #000000);
 
+    }
+
+    .socials_index_linked{
+        filter: drop-shadow(0px 0px 5px #000000);
+        position:absolute;
+        left:0%;
+        width:15%;
+        top:35%;
+        transform: rotate(-15deg);
+        transition: all 0.25s ease-in-out;
+    }
+    .socials_index_linked:hover {
+        transform: rotate(15deg);     
+    }
+
+    .socials_index_github {
+        filter: drop-shadow(0px 0px 5px #000000);
+        position:absolute;
+        left:39%;
+        width:15%;
+        top:35%;
+        transform: rotate(15deg);
+        transition: all 0.25s ease-in-out;
+    }
+
+    .socials_index_github:hover{
+        transform: rotate(-15deg);     
     }
 
     .full_name_text {
@@ -23,6 +50,36 @@
         font-family: "Open Sans", sans-serif;
         color: #000000;
         font-size: 5vw;
+        border-right: solid 2px black;
+
+        display: inline-block;
+        letter-spacing: 0.01em;
+        width: 0;
+        overflow: hidden;
+        white-space: nowrap;
+        animation:
+            type 2s steps(21) 1s forwards,
+            blink 0.5s steps(1) infinite;
+    }
+
+    @keyframes type {
+        to {
+            width: 17ch
+        }
+    }
+
+    @keyframes blink {
+        from {
+            border-color: transparent
+        }
+
+        50% {
+            border-color: black
+        }
+
+        to {
+            border-color: transparent
+        }
     }
 
     .job_role_text {
@@ -87,14 +144,14 @@
     }
 
     .navbar_container {
-        position:absolute;
-        top:-4%;
-        right:5%;
+        position: absolute;
+        top: -4%;
+        right: 5%;
     }
 
     .navbar_list {
-        list-style: none; 
-        
+        list-style: none;
+
     }
 
     .navbar_item {
@@ -103,29 +160,53 @@
         font-size: 5vw;
         font-family: "Open Sans", sans-serif;
         transition: all 0.25s ease-in-out;
-        margin-top:15vw; 
-      
+        margin-top: 15vw;
+
     }
- 
+
 
     .navbar_text:hover {
         border-bottom: solid #111111;
         transform: translateY(-5px);
     }
 
+   
+
 
 }
 
 /* --------------------------------------------------------------------------------------------------------------------------------------- */
 /* The CSS Below is for Mobile in landscape orientation */
-@media only screen and (min-width:650px) and (max-width:993px) and (orientation: landscape) {
+@media only screen and (min-width:650px) and (max-width:993px) {
 
     .index_container {
         background: linear-gradient(90deg, rgb(255, 255, 255) 55%, rgb(213, 213, 213) 55%);
         height: 100vh;
-        
-        
     }
+
+    .scroll-progress {
+        position: fixed;
+        height: 10px;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: rgb(82, 55, 127);
+        background: linear-gradient(270deg, rgb(95, 95, 95) 25%, rgb(214, 214, 214) 75%);
+        z-index: 1000;
+        animation: scroll-progress linear;
+        animation-timeline: scroll();
+    }
+
+    @keyframes scroll-progress {
+        from {
+           width:0px;
+        }
+
+        to {
+            width:100%;
+        }
+    }
+
 
     .index_image_me {
         width: 25%;
@@ -143,11 +224,42 @@
         font-family: "Open Sans", sans-serif;
         color: #000000;
         font-size: 3vw;
+
+        border-right: solid 2px black;
+
+        display: inline-block;
+        letter-spacing: 0.01em;
+        width: 0;
+        overflow: hidden;
+        white-space: nowrap;
+        animation:
+            type 2s steps(21) 1s forwards,
+            blink 0.5s steps(1) infinite;
+    }
+
+    @keyframes type {
+        to {
+            width: 17ch
+        }
+    }
+
+    @keyframes blink {
+        from {
+            border-color: transparent
+        }
+
+        50% {
+            border-color: black
+        }
+
+        to {
+            border-color: transparent
+        }
     }
 
     .job_role_text {
         position: absolute;
-        margin-top: 17.2%;
+        margin-top: 18%;
         left: 4%;
         font-size: 1.5vw;
         font-family: "Open Sans", sans-serif;
@@ -162,7 +274,7 @@
 
     .index_hire_me_button {
         position: absolute;
-        margin-top: 20.1%;
+        margin-top: 20.5%;
         left: 4%;
         padding-top: 1%;
         padding-bottom: 1%;
@@ -185,7 +297,7 @@
 
     .index_explore_more_button {
         position: absolute;
-        margin-top: 20.1%;
+        margin-top: 20.5%;
         left: 15%;
         padding-top: 1%;
         padding-bottom: 1%;
@@ -211,13 +323,13 @@
     }
 
     .navbar_list {
-        position:absolute;
-        right:0;
+        position: absolute;
+        right: 0;
         justify-content: right;
         display: flex;
         padding-right: 2%;
         list-style: none;
-        width:100%;
+        width: 100%;
     }
 
     .navbar_item {
@@ -234,6 +346,33 @@
     .navbar_text:hover {
         border-bottom: solid #111111;
         transform: translateY(-5px);
+    }
+
+    .socials_index_linked{
+        filter: drop-shadow(0px 0px 1px #000000);
+        position:absolute;
+        right:28%;
+        width:10%;
+        top:60%;
+        transform: rotate(-15deg);
+        transition: all 0.25s ease-in-out;
+    }
+    .socials_index_linked:hover {
+        transform: rotate(15deg);     
+    }
+
+    .socials_index_github {
+        filter: drop-shadow(0px 0px 1px #000000);
+        position:absolute;
+        right:6%;
+        width:10%;
+        top:60%;
+        transform: rotate(15deg);
+        transition: all 0.25s ease-in-out;
+    }
+
+    .socials_index_github:hover{
+        transform: rotate(-15deg);     
     }
 }
 
@@ -244,7 +383,6 @@
     .index_container {
         background: linear-gradient(90deg, rgb(255, 255, 255) 55%, rgb(213, 213, 213) 55%);
         height: 100vh;
-        
     }
 
     .index_image_me {
@@ -253,7 +391,31 @@
         bottom: 25%;
         right: 10%;
         filter: drop-shadow(0px 0px 14px #000000);
+        
+    }
 
+    .scroll-progress {
+        position: fixed;
+        height: 10px;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: rgb(82, 55, 127);
+        background: linear-gradient(270deg, rgb(95, 95, 95) 25%, rgb(214, 214, 214) 75%);
+        z-index: 1000;
+        animation: scroll-progress linear;
+        animation-timeline: scroll();
+        
+    }
+
+    @keyframes scroll-progress {
+        from {
+           width:0px;
+        }
+
+        to {
+            width:100%;
+        }
     }
 
     .full_name_text {
@@ -263,17 +425,50 @@
         font-family: "Open Sans", sans-serif;
         color: #000000;
         font-size: 3vw;
+
+        border-right: solid 2px black;
+
+        display: inline-block;
+        letter-spacing: 0.01em;
+        width: 0;
+        overflow: hidden;
+        white-space: nowrap;
+        animation:
+            type 2s steps(21) 1s forwards,
+            blink 0.5s steps(1) infinite;
+
+    }
+
+    @keyframes type {
+        to {
+            width: 17ch
+        }
+    }
+
+    @keyframes blink {
+        from {
+            border-color: transparent
+        }
+
+        50% {
+            border-color: black
+        }
+
+        to {
+            border-color: transparent
+        }
     }
 
     .job_role_text {
         position: absolute;
-        margin-top: 17.2%;
+        margin-top: 18%;
         left: 4%;
         font-size: 1.5vw;
         font-family: "Open Sans", sans-serif;
         font-weight: 500;
         font-style: normal;
         color: #000000;
+        
     }
 
     .full_stop_text {
@@ -282,7 +477,7 @@
 
     .index_hire_me_button {
         position: absolute;
-        margin-top: 20.1%;
+        margin-top: 20.5%;
         left: 4%;
         padding-top: 1%;
         padding-bottom: 1%;
@@ -305,7 +500,7 @@
 
     .index_explore_more_button {
         position: absolute;
-        margin-top: 20.1%;
+        margin-top: 20.5%;
         left: 15%;
         padding-top: 1%;
         padding-bottom: 1%;
@@ -331,13 +526,13 @@
     }
 
     .navbar_list {
-        position:absolute;
-        right:0;
+        position: absolute;
+        right: 0;
         justify-content: right;
         display: flex;
         padding-right: 2%;
         list-style: none;
-        width:100%;
+        width: 100%;
     }
 
     .navbar_item {
@@ -356,6 +551,31 @@
         transform: translateY(-5px);
     }
 
+    .socials_index_linked{
+        filter: drop-shadow(0px 0px 5px #000000);
+        position:absolute;
+        right:28%;
+        width:10%;
+        top:60%;
+        transform: rotate(-15deg);
+        transition: all 0.25s ease-in-out;
+    }
+    .socials_index_linked:hover {
+        transform: rotate(15deg);     
+    }
 
+    .socials_index_github {
+        filter: drop-shadow(0px 0px 5px #000000);
+        position:absolute;
+        right:6%;
+        width:10%;
+        top:60%;
+        transform: rotate(15deg);
+        transition: all 0.25s ease-in-out;
+    }
+
+    .socials_index_github:hover{
+        transform: rotate(-15deg);     
+    }
 
 }

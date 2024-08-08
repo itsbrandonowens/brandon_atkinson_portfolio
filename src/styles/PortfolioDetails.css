@@ -1,0 +1,36 @@
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+/* The CSS Below is for Mobile in portrait orientation*/
+@media only screen and (max-width: 649px) {
+   
+    
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+/* The CSS Below is for Mobile in landscape orientation */
+@media only screen and (min-width:650px) and (max-width:993px)  {
+
+   
+      
+    
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+/* The CSS Below is for Desktop and Larger Devices */
+@media only screen and (min-width:992px) {
+
+    .p_detail_title{
+        text-align:center;
+        font-size:5vw;
+        font-weight:1000;
+        background-image: url("/src/components/images/loTitle.png");
+        background-clip:text;
+        letter-spacing: -1px;
+        background-size:cover;
+        background-repeat:no-repeat;
+        color:transparent;
+        filter: drop-shadow(0px 0px 5px #000000);
+        -webkit-text-stroke: 0.1vw black;
+
+    }
+
+}

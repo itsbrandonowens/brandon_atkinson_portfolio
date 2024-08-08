@@ -2,6 +2,9 @@ import React from 'react'
 import '../styles/IndexPage.css'
 import { Link } from 'react-router-dom';
 import IndexPicture from './images/index_me.png'
+import linkedInLogo from './images/linkedInLogo.png'
+import githubLogo from './images/githubLogo.png'
+
 
 const IndexPage = () => {
     //Follow video on phone
@@ -9,7 +12,7 @@ const IndexPage = () => {
     //add css for mobile
 
 
-   
+
     // Scrolls back to the top of the page when "home" is clicked
     const homeHandler = () => {
         window.scrollTo({ top: 0, behavior: 'smooth' })
@@ -17,28 +20,29 @@ const IndexPage = () => {
 
     // Gets the "about" titles id and scrolls until that is on the top of the view
     const aboutHandler = () => {
-        document.getElementById('about').scrollIntoView({behavior: "smooth"}); 
-        
+        document.getElementById('about').scrollIntoView({ behavior: "smooth" });
+
     };
 
     // Gets the "service" titles id and scrolls until that is on the top of the view
     const serviceHandler = () => {
-        document.getElementById('service').scrollIntoView({behavior: "smooth"}); 
+        document.getElementById('service').scrollIntoView({ behavior: "smooth" });
     };
 
     // Gets the "service" titles id and scrolls until that is on the top of the view
     const portfolioHandler = () => {
-        document.getElementById('portfolio').scrollIntoView({behavior: "smooth"}); 
+        document.getElementById('portfolio').scrollIntoView({ behavior: "smooth" });
     };
 
     // Gets the "service" titles id and scrolls until that is on the top of the view
     const contactHandler = () => {
-        document.getElementById('contact').scrollIntoView({behavior: "smooth"}); 
+        document.getElementById('contact').scrollIntoView({ behavior: "smooth" });
     };
 
     return (
 
         <div className="index_container" >
+            <div className='scroll-progress'></div>
             <div className="navbar_container">
                 <li className="navbar_list">
                     <ul className="navbar_item" onClick={homeHandler}> <p className="navbar_text"> HOME </p></ul>
@@ -49,6 +53,7 @@ const IndexPage = () => {
                 </li>
 
             </div>
+
             <h1 className="full_name_text">Brandon Atkinson<span className="full_stop_text">.</span></h1>
             <h2 className="job_role_text">Software Developer</h2>
             <button className="index_hire_me_button" onClick={contactHandler}> Hire Me </button>
@@ -58,7 +63,16 @@ const IndexPage = () => {
             <img src={IndexPicture} className="index_image_me" alt="Brandon Atkinson Image"></img>
 
 
+            
+                <a href="https://www.linkedin.com/in/brandondoatkinson/" target="_blank" >
+                    <img src={linkedInLogo} className="socials_index_linked" alt="Brandon Atkinson Image"></img>
+                </a>
+                <a href="https://github.com/itsbrandonowens" target="_blank" >
+                    <img src={githubLogo} className="socials_index_github" alt="Brandon Atkinson Image"></img>
 
+                </a>
+
+            
         </div >
 
     )

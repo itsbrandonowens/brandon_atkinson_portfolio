@@ -46,7 +46,7 @@ const Contact = () => {
             <h1 className="contact_title" id="contact">CONTACT</h1>
             <div className="about_line_1"></div>
             <div className="about_line_2"></div>
-            <div className="contact_grid">
+            
                 <form onSubmit={handleSubmit} className='contact_form'>
                     <input
                         className="contact_name"
@@ -74,18 +74,9 @@ const Contact = () => {
                     <button className="contact_submit" type="submit">Send </button>
                 </form>
 
-                <div className="contact_socials">
-                    <a href="https://www.linkedin.com/in/brandondoatkinson/" target="_blank" className="socials_individual">
-                        <img src={linkedInLogo} className="contact_logo" alt="Brandon Atkinson Image"></img>
-                        <h1 className="contact_social_text">brandondoatkinson</h1>
-                    </a>
-                    <a href="https://github.com/itsbrandonowens" target="_blank" className="socials_individual">
-                        <img src={githubLogo} className="contact_logo" alt="Brandon Atkinson Image"></img>
-                        <h1 className="contact_social_text">itsbrandonowens</h1>
-                    </a>
-                </div>
+                
             </div>
-        </div >
+        
     )
 }
 

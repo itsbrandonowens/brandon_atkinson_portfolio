@@ -137,7 +137,7 @@
 
 /* --------------------------------------------------------------------------------------------------------------------------------------- */
 /* The CSS Below is for Mobile in landscape orientation */
-@media only screen and (min-width:650px) and (max-width:993px) and (orientation: landscape) {
+@media only screen and (min-width:650px) and (max-width:993px)  {
 
     .contact_container {
         margin-top: 8%;
@@ -245,7 +245,7 @@
     .contact_submit {
         position: absolute;
         margin-top: 5%;
-        left: 32%;
+        left: 45%;
         padding-top: 1%;
         padding-bottom: 1%;
         width: 10%;
@@ -378,7 +378,7 @@
     .contact_submit {
         position: absolute;
         margin-top: 5%;
-        left: 32%;
+        left: 45%;
         padding-top: 1%;
         padding-bottom: 1%;
         width: 10%;
