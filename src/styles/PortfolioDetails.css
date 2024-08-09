@@ -18,19 +18,94 @@
 /* The CSS Below is for Desktop and Larger Devices */
 @media only screen and (min-width:992px) {
 
+    .portfolio_details_container {
+        
+    }
+
+    .portfolio_grid_container{
+        display:grid;
+        grid-template-columns: 58% 42%;
+    }
+
+    .portfolio_grid_item{
+        
+    }
+
+    .portfolio_image_diss {
+        width:85%;
+        margin-top:15%;
+        margin-left:5%;
+        filter: drop-shadow(0px 0px 14px #000000);
+    }
+
+
     .p_detail_title{
-        text-align:center;
-        font-size:5vw;
+
+        margin-top:1%;
+        margin-right:2%;
+        font-size:7vw;
         font-weight:1000;
         background-image: url("/src/components/images/loTitle.png");
         background-clip:text;
-        letter-spacing: -1px;
+        
         background-size:cover;
         background-repeat:no-repeat;
         color:transparent;
         filter: drop-shadow(0px 0px 5px #000000);
         -webkit-text-stroke: 0.1vw black;
+    }
+
+    .back_button {
+        position: absolute;
+        top:2%;
+        left: 3%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        width: 10%;
+        border: solid black;
+        outline: none;
+        background-color: #111111;
+        color: #eee;
+        border-radius: 7px;
+        font-weight: 500;
+        font-size: 1vw;
+        cursor: pointer;
+        transition: all 0.25s ease-out;
+        font-family: "Open Sans", sans-serif;
 
     }
 
+    .back_button:hover {
+        transform: translateY(-3px);
+    }
+
+    .portfolio_details_description{
+        text-align: justify;
+        margin-left:-5%;
+        margin-top:-5%;
+        width:100%;
+        font-family: "Open Sans", sans-serif;
+        font-size:1vw;
+        
+        
+    }
+
+    .tech_stack_header{
+        font-family: "Open Sans", sans-serif;
+        font-size:1.2vw;
+        margin-left:5%;
+        margin-top:5%;
+        text-decoration: underline;
+        font-weight: 700;
+    }
+
+    .tech_stack_images_group{
+        margin-left:3%;
+        margin-top:-1%;
+    }
+
+    .tech_stack_used_image {
+        width:10%;
+        margin-left:2%;
+    }
 }

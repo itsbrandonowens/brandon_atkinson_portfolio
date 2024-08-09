@@ -1,30 +1,19 @@
-
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
-import IndexPage from './components/IndexPage';
-import About from './components/About'
-import Service from './components/Service';
-import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
-import LastOrders from './components/LastOrders';
+import HomePage from './components/HomePage';
+import LOImageSlider from './components/LOImageSlider';
 
 
 function App() {
   return (
     <div className="App">
-
-      <IndexPage />
-      <About />
-      <Service />
-      <Portfolio />
-      <Contact />
-      
       <Routes>
-        <Route path='/LastOrders' element={<LastOrders />} />
+        <Route path='/' element={<HomePage />} />
+        <Route path='/brandon_atkinson_portfolio' element={<HomePage />} />
+        <Route path='/LastOrders' element={<LOImageSlider />} />
       </Routes>
-
-
     </div>
+
   );
 }
 
