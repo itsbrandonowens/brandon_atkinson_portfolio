@@ -10,7 +10,7 @@
     .index_image_me {
         width: 50%;
         position: absolute;
-        top: 2%;
+        margin-top:2%;
         left: 2%;
         filter: drop-shadow(0px 0px 5px #000000);
 
@@ -21,7 +21,7 @@
         position:absolute;
         left:0%;
         width:15%;
-        top:35%;
+        margin-top:42%;
         transform: rotate(-15deg);
         transition: all 0.25s ease-in-out;
     }
@@ -34,7 +34,7 @@
         position:absolute;
         left:39%;
         width:15%;
-        top:35%;
+        margin-top:42%;
         transform: rotate(15deg);
         transition: all 0.25s ease-in-out;
     }

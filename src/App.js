@@ -2,7 +2,16 @@ import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import HomePage from './components/HomePage';
 import LOImageSlider from './components/LOImageSlider';
+/*
+------------------ TO DO ----------------------
 
+Create final portfolio detail page + all css
+
+make navbar nicer
+
+
+
+*/
 
 function App() {
   return (

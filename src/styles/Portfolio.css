@@ -2,8 +2,8 @@
 /* The CSS Below is for Mobile in portrait orientation*/
 @media only screen and (max-width: 649px) {
   .portfolio_container {
-    margin-top: 15%;
-    height: 270vw;
+    margin-top: 20%;
+    height: 300vw;
   }
 
   .portfolio_title {
@@ -13,71 +13,79 @@
     font-weight: 500;
   }
 
-  .about_line_1{
-    width:40%;
-    height:0.5%;
-    background-color:black;
-    position:absolute;
-    margin-top:-5%;
-    left:30%;
+  .about_line_1 {
+    width: 40%;
+    height: 0.5%;
+    background-color: black;
+    position: absolute;
+    margin-top: -5%;
+    left: 30%;
 
-}
-.about_line_2{
-    width:20%;
-    height:0.5%;
-    background-color:black;
-    position:absolute;
-    margin-top:-2.5%;
-    left:40%;
-}
+  }
+
+  .about_line_2 {
+    width: 20%;
+    height: 0.5%;
+    background-color: black;
+    position: absolute;
+    margin-top: -2.5%;
+    left: 40%;
+  }
 
   .portfolio_grid {
-    margin-top: 15%;
+    margin-top: 20%;
     display: grid;
     grid-template-rows: 25% 25% 25% 25%;
+    width: 80%;
+    margin-left: 9%;
     row-gap:5%;
-    text-align:center;
   }
 
-
-  .image_portfolio {
-    border-image: fill 0 linear-gradient(#0001, #000);
-    width: 50%;
-    filter: drop-shadow(0px 0px 5px #000000); 
-  }
-
-  .portfolio_hovered{
-    position:absolute;
-    z-index:11;
-    border-image: fill 0 linear-gradient(#0001, #000);
-    margin-left:25%;
-    height:22.5%;
-    width:50%;
-    padding-bottom:1.5%;
-    transition:0.2s ease-in-out
+  .portfolio_mini_grid {
+    display: grid;
+    transition: all 0.25s ease-out;
+    cursor:pointer;
     
   }
 
-  .portfolio_image_text {
-    color:white;
-    font-size:5vw;
-    font-weight:500;
-    width:90%;
-    margin-left:5%;
+  .portfolio_mini_grid:hover {
+    transform: translateY(-20px);
   }
 
-  .portfolio_image_link {
-    color:white;
-    fill:white;
-    font-size:8vw;
-    border: solid 1.5px white;
-    border-radius:100px;
-    width:20%;
-    padding:1.5%;
-    position:absolute;
-    bottom:-5%;
-    left:5%;
-    text-decoration: none;
+  .portfolio_top {
+    background-color: rgb(231, 231, 231);
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+  }
+
+  .portfolio_bottom {
+    background-color: rgb(246, 246, 246);
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius:10px;
+  }
+
+  .portfolio_image {
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  .portfolio_text {
+    text-align: left;
+    margin-left:10%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 5vw;
+    font-weight: 800;
+    color:rgb(18, 18, 18);
+  }
+
+  .portfolio_text_2 {
+    text-align: left;
+    margin-left:10%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+    font-weight: 500;
+    color:rgb(171, 29, 206);
+    margin-top:-5%;
   }
 }
 
@@ -119,49 +127,58 @@
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     width: 80%;
-    margin-left: 13%;
+    margin-left: 9%;
+    column-gap:1%;
+    row-gap:5%;
   }
 
-
-  .image_portfolio {
-    position: absolute;
-    width: 15%;
-    filter: drop-shadow(0px 0px 5px #000000);
+  .portfolio_mini_grid {
+    display: grid;
+    transition: all 0.25s ease-out;
+    cursor:pointer;
     
   }
 
- 
-  .portfolio_hovered{
-    position:absolute;
-    z-index:11;
-    border-image: fill 0 linear-gradient(#0001, #000);
-    width:15%;
-    height:auto;
-    padding-bottom:1.5%;
-    transition:0.2s ease-in-out
-    
-  }
-  
-
-  .portfolio_image_text {
-    color:white;
-    font-size:1.2vw;
-    margin-top:60%;
-    margin-left:5%;
-    font-weight:500;
+  .portfolio_mini_grid:hover {
+    transform: translateY(-20px);
   }
 
-  .portfolio_image_link {
-    color:white;
-    fill:white;
-    font-size:1vw;
-    border: solid 1.5px white;
-    border-radius:100px;
-    width:10%;
-    padding:1.5%;
-    margin-top:-3%;
-    margin-left:5%;
+  .portfolio_top {
+    background-color: rgb(231, 231, 231);
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
   }
+
+  .portfolio_bottom {
+    background-color: rgb(246, 246, 246);
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius:10px;
+  }
+
+  .portfolio_image {
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  .portfolio_text {
+    text-align: left;
+    margin-left:10%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.4vw;
+    font-weight: 800;
+    color:rgb(18, 18, 18);
+  }
+
+  .portfolio_text_2 {
+    text-align: left;
+    margin-left:10%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1vw;
+    font-weight: 500;
+    color:rgb(171, 29, 206);
+    margin-top:-5%;
+  }
+
 }
 
 /* --------------------------------------------------------------------------------------------------------------------------------------- */
@@ -203,49 +220,58 @@
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     width: 80%;
-    margin-left: 13%;
+    margin-left: 9%;
+    column-gap:1%;
+    row-gap:5%;
   }
 
-
-  .image_portfolio {
-    position: absolute;
-    width: 15%;
-    filter: drop-shadow(0px 0px 5px #000000);
+  .portfolio_mini_grid {
+    display: grid;
+    transition: all 0.25s ease-out;
+    cursor:pointer;
     
   }
 
-  .portfolio_hovered{
-    position:absolute;
-    opacity:0;
-    z-index:11;
-    border-image: fill 0 linear-gradient(#0001, #000);
-    width:15%;
-    height:auto;
-    padding-bottom:1.5%;
-    transition:0.2s ease-in-out
-    
-  }
-  .portfolio_hovered:hover{
-    opacity:1;
+  .portfolio_mini_grid:hover {
+    transform: translateY(-20px);
   }
 
-  .portfolio_image_text {
-    color:white;
-    font-size:1.2vw;
-    margin-top:60%;
-    margin-left:5%;
-    font-weight:500;
+  .portfolio_top {
+    background-color: rgb(231, 231, 231);
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
   }
 
-  .portfolio_image_link {
-    color:white;
-    fill:white;
-    font-size:1vw;
-    border: solid 1.5px white;
-    border-radius:100px;
-    width:10%;
-    padding:1.5%;
-    margin-top:-3%;
-    margin-left:5%;
+  .portfolio_bottom {
+    background-color: rgb(246, 246, 246);
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius:10px;
   }
+
+  .portfolio_image {
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  .portfolio_text {
+    text-align: left;
+    margin-left:10%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.4vw;
+    font-weight: 800;
+    color:rgb(18, 18, 18);
+  }
+
+  .portfolio_text_2 {
+    text-align: left;
+    margin-left:10%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1vw;
+    font-weight: 500;
+    color:rgb(171, 29, 206);
+    margin-top:-5%;
+  }
+
+
+
 }

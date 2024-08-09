@@ -2,13 +2,11 @@ import React from 'react'
 import '../styles/Portfolio.css'
 import loPortf1 from './images/LastOrdersPortf.png'
 import fdmPortf1 from './images/FDMPortf.png'
-import blackjackPort from './images/blackjackPortf.png'
-import tictactoePort from './images/tictactoePortf.png'
+import pythonPort from './images/pythonPortf.png'
+
 import { Link } from 'react-router-dom'
 
-//https://www.youtube.com/watch?v=hr4JiDr7Aec
-
-// add individual pages that give more detail
+//https://olaolu.dev/work/hellotax/
 
 const Portfolio = () => {
     return (
@@ -19,45 +17,45 @@ const Portfolio = () => {
             <div className="about_line_2"></div>
             <div className="portfolio_grid">
 
-            
-                <div className="imageBox">
-                    <div className="portfolio_hovered">
-                        <h1 className="portfolio_image_text">Last Orders</h1>
-                        <Link to="/LastOrders" style={{ color: "black", textDecoration: 'none' }}><h1 className="portfolio_image_link"> 👁️</h1></Link>
+                <Link to="/LastOrders" style={{ color: "black", textDecoration: 'none' }}> <div className="portfolio_mini_grid">
+                    <div className="portfolio_top">
+                        <img src={loPortf1} className="portfolio_image" alt="Last Orders"></img>
                     </div>
-                    <img src={loPortf1} className="image_portfolio" alt="Last Orders"></img>
-                </div>
-
-
-                <div className="imageBox">
-                    <div className="portfolio_hovered">
-                        <h1 className="portfolio_image_text">Consultant Framework</h1>
-                        <Link to="/LastOrders" style={{ color: "black", textDecoration: 'none' }}><h1 className="portfolio_image_link"> 👁️</h1></Link>
-                        
+                    <div className="portfolio_bottom">
+                        <h1 className="portfolio_text"> Last Orders</h1>
+                        <h2 className="portfolio_text_2"> lastordersgame.com</h2>
                     </div>
-                    <img src={fdmPortf1} className="image_portfolio" alt="FDM Consultant Career Framework"></img>
-                </div>
+                </div></Link>
 
-                <div className="imageBox">
-                    <div className="portfolio_hovered">
-                        <h1 className="portfolio_image_text">Python Blackjack</h1>
-                        <Link to="/LastOrders" style={{ color: "black", textDecoration: 'none' }}><h1 className="portfolio_image_link"> 👁️</h1></Link>
-                        
+                <Link to="/LastOrders" style={{ color: "black", textDecoration: 'none' }}> <div className="portfolio_mini_grid">
+                    <div className="portfolio_top">
+                        <img src={fdmPortf1} className="portfolio_image" alt="Last Orders"></img>
                     </div>
-                    <img src={blackjackPort} className="image_portfolio" alt="Blackjack"></img>
-                </div>
-
-                <div className="imageBox">
-                    <div className="portfolio_hovered">
-                        <h1 className="portfolio_image_text">Python Tic-Tac-Toe</h1>
-                        <Link to="/LastOrders" style={{ color: "black", textDecoration: 'none' }}><h1 className="portfolio_image_link"> 👁️</h1></Link>
-                        
+                    <div className="portfolio_bottom">
+                        <h1 className="portfolio_text"> Consultant Framework </h1>
+                        <h2 className="portfolio_text_2"> FDM Group</h2>
                     </div>
-                    <img src={tictactoePort} className="image_portfolio" alt="Blackjack"></img>
-                </div>
+                </div></Link>      
 
+                <Link to="/LastOrders" style={{ color: "black", textDecoration: 'none' }}> <div className="portfolio_mini_grid">
+                    <div className="portfolio_top">
+                        <img src={pythonPort} className="portfolio_image" alt="Last Orders"></img>
+                    </div>
+                    <div className="portfolio_bottom">
+                        <h1 className="portfolio_text"> Blackjack Game</h1>
+                        <h2 className="portfolio_text_2"> github.com/itsbrandonowens</h2>
+                    </div>
+                </div></Link>
 
-
+                <Link to="/LastOrders" style={{ color: "black", textDecoration: 'none' }}> <div className="portfolio_mini_grid">
+                    <div className="portfolio_top">
+                        <img src={pythonPort} className="portfolio_image" alt="Last Orders"></img>
+                    </div>
+                    <div className="portfolio_bottom">
+                        <h1 className="portfolio_text"> Tic-Tac-Toe Game</h1>
+                        <h2 className="portfolio_text_2"> github.com/itsbrandonowens</h2>
+                    </div>
+                </div></Link>
 
 
 

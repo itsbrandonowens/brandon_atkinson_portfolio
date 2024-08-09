@@ -14,7 +14,9 @@ import cssLogo from './images/cssLogo.png'
 import htmlLogo from './images/htmlLogo.png'
 import '../styles/PortfolioDetails.css'
 import { motion } from "framer-motion"
-
+// dots underneath image to show what image its on
+// make dots clickable
+// add arrows to images 
 
 
 class LOImageSlider extends React.Component {
