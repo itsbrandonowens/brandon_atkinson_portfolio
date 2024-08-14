@@ -2,16 +2,10 @@ import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import HomePage from './components/HomePage';
 import LOImageSlider from './components/LOImageSlider';
-/*
------------------- TO DO ----------------------
+import FDMImageSlider from './components/FDMImageSlider';
+import BJImageSlider from './components/BJImageSlider';
+import TTTImageSlider from './components/TTTImageSlider';
 
-Create final portfolio detail page + all css
-
-make navbar nicer
-
-
-
-*/
 
 function App() {
   return (
@@ -19,7 +13,10 @@ function App() {
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='/brandon_atkinson_portfolio' element={<HomePage />} />
-        <Route path='/LastOrders' element={<LOImageSlider />} />
+        <Route path='/last_orders' element={<LOImageSlider />} />
+        <Route path='/career_framework' element={<FDMImageSlider />} />
+        <Route path='/blackjack' element={<BJImageSlider />} />
+        <Route path='/tictactoe' element={<TTTImageSlider />} />
       </Routes>
     </div>
 

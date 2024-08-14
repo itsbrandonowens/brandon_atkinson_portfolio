@@ -6,8 +6,6 @@ import pythonPort from './images/pythonPortf.png'
 
 import { Link } from 'react-router-dom'
 
-//https://olaolu.dev/work/hellotax/
-
 const Portfolio = () => {
     return (
 
@@ -17,7 +15,7 @@ const Portfolio = () => {
             <div className="about_line_2"></div>
             <div className="portfolio_grid">
 
-                <Link to="/LastOrders" style={{ color: "black", textDecoration: 'none' }}> <div className="portfolio_mini_grid">
+                <Link to="/last_orders" style={{ color: "black", textDecoration: 'none' }}> <div className="portfolio_mini_grid">
                     <div className="portfolio_top">
                         <img src={loPortf1} className="portfolio_image" alt="Last Orders"></img>
                     </div>
@@ -27,7 +25,7 @@ const Portfolio = () => {
                     </div>
                 </div></Link>
 
-                <Link to="/LastOrders" style={{ color: "black", textDecoration: 'none' }}> <div className="portfolio_mini_grid">
+                <Link to="/career_framework" style={{ color: "black", textDecoration: 'none' }}> <div className="portfolio_mini_grid">
                     <div className="portfolio_top">
                         <img src={fdmPortf1} className="portfolio_image" alt="Last Orders"></img>
                     </div>
@@ -37,7 +35,7 @@ const Portfolio = () => {
                     </div>
                 </div></Link>      
 
-                <Link to="/LastOrders" style={{ color: "black", textDecoration: 'none' }}> <div className="portfolio_mini_grid">
+                <Link to="/blackjack" style={{ color: "black", textDecoration: 'none' }}> <div className="portfolio_mini_grid">
                     <div className="portfolio_top">
                         <img src={pythonPort} className="portfolio_image" alt="Last Orders"></img>
                     </div>
@@ -47,7 +45,7 @@ const Portfolio = () => {
                     </div>
                 </div></Link>
 
-                <Link to="/LastOrders" style={{ color: "black", textDecoration: 'none' }}> <div className="portfolio_mini_grid">
+                <Link to="/tictactoe" style={{ color: "black", textDecoration: 'none' }}> <div className="portfolio_mini_grid">
                     <div className="portfolio_top">
                         <img src={pythonPort} className="portfolio_image" alt="Last Orders"></img>
                     </div>
