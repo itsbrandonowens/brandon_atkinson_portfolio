@@ -58,7 +58,7 @@ class FDMImageSlider extends React.Component {
                 exit={{ opacity: 0 }}
                 transition={{ duration: 1.3 }}>
                 <div class="portfolio_details_container">
-                    <a href="./brandon_atkinson_portfolio"> <button className="back_button" > Go Back </button></a>
+                    <a href="https://itsbrandonowens.github.io/brandon_atkinson_portfolio/"> <button className="back_button" > Go Back </button></a>
                     <h1 className="p_detail_title"> Consultant Career Framework </h1>
                     <h1 className="p_detail_subtitle"> FDM Group</h1>
 
