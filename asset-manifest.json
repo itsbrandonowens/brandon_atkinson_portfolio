@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/brandon_atkinson_portfolio/static/css/main.b1526338.css",
-    "main.js": "/brandon_atkinson_portfolio/static/js/main.1db1786e.js",
+    "main.css": "/brandon_atkinson_portfolio/static/css/main.087b59ed.css",
+    "main.js": "/brandon_atkinson_portfolio/static/js/main.7464fbec.js",
     "static/js/453.5af0a012.chunk.js": "/brandon_atkinson_portfolio/static/js/453.5af0a012.chunk.js",
     "static/media/LastOrdersPortf.png": "/brandon_atkinson_portfolio/static/media/LastOrdersPortf.99bbb58c189790b8ccdc.png",
     "static/media/loScreenshot5.png": "/brandon_atkinson_portfolio/static/media/loScreenshot5.7d47d6ec0f19a13d6236.png",
@@ -9,9 +9,12 @@
     "static/media/loScreenshot6.png": "/brandon_atkinson_portfolio/static/media/loScreenshot6.3f2f8c6c228b0b19afd7.png",
     "static/media/loScreenshot1.png": "/brandon_atkinson_portfolio/static/media/loScreenshot1.4679ec842a33287699b7.png",
     "static/media/loScreenshot3.png": "/brandon_atkinson_portfolio/static/media/loScreenshot3.96d0139d93f381f4707e.png",
-    "static/media/loTitle.png": "/brandon_atkinson_portfolio/static/media/loTitle.c6fd18f8415e11c8ac2c.png",
     "static/media/loScreenshot2.png": "/brandon_atkinson_portfolio/static/media/loScreenshot2.b6bfd6f971c46777eb63.png",
     "static/media/loScreenshot7.png": "/brandon_atkinson_portfolio/static/media/loScreenshot7.15cd396feba41fe0fd9f.png",
+    "static/media/fdmScreenshot3.png": "/brandon_atkinson_portfolio/static/media/fdmScreenshot3.761daa7016ec8d9b70cd.png",
+    "static/media/tttScreenshot1.png": "/brandon_atkinson_portfolio/static/media/tttScreenshot1.98ed8ea9c4c7bda7b655.png",
+    "static/media/fdmScreenshot2.png": "/brandon_atkinson_portfolio/static/media/fdmScreenshot2.3fd2958a64240369bd1a.png",
+    "static/media/fdmScreenshot1.png": "/brandon_atkinson_portfolio/static/media/fdmScreenshot1.22db6de059828bd8450d.png",
     "static/media/brandon_cv.pdf": "/brandon_atkinson_portfolio/static/media/brandon_cv.1209a0ed08902c8937c6.pdf",
     "static/media/index_me.png": "/brandon_atkinson_portfolio/static/media/index_me.d0f04e246fac3991d31d.png",
     "static/media/javaLogo.png": "/brandon_atkinson_portfolio/static/media/javaLogo.fd4db2ea976be1010d5e.png",
@@ -19,6 +22,7 @@
     "static/media/projectsimg.png": "/brandon_atkinson_portfolio/static/media/projectsimg.7302e3ab3147adc73cd2.png",
     "static/media/githubLogo.png": "/brandon_atkinson_portfolio/static/media/githubLogo.5a487d444794b08b86cf.png",
     "static/media/pythonPortf.png": "/brandon_atkinson_portfolio/static/media/pythonPortf.b84b044463c8a7a5a59a.png",
+    "static/media/bjScreenshot1.png": "/brandon_atkinson_portfolio/static/media/bjScreenshot1.384a0ab09b11aad3ac8f.png",
     "static/media/pythonLogo.png": "/brandon_atkinson_portfolio/static/media/pythonLogo.de7c8e3990db0789c82b.png",
     "static/media/htmlLogo.png": "/brandon_atkinson_portfolio/static/media/htmlLogo.214104a0dff5a8139157.png",
     "static/media/cssLogo.png": "/brandon_atkinson_portfolio/static/media/cssLogo.ce5e88900f3ccc7c0561.png",
@@ -28,12 +32,12 @@
     "static/media/frontendimg.png": "/brandon_atkinson_portfolio/static/media/frontendimg.236bc5f1e9736860170c.png",
     "static/media/FDMPortf.png": "/brandon_atkinson_portfolio/static/media/FDMPortf.dc4ebe38c451dc50ebb6.png",
     "index.html": "/brandon_atkinson_portfolio/index.html",
-    "main.b1526338.css.map": "/brandon_atkinson_portfolio/static/css/main.b1526338.css.map",
-    "main.1db1786e.js.map": "/brandon_atkinson_portfolio/static/js/main.1db1786e.js.map",
+    "main.087b59ed.css.map": "/brandon_atkinson_portfolio/static/css/main.087b59ed.css.map",
+    "main.7464fbec.js.map": "/brandon_atkinson_portfolio/static/js/main.7464fbec.js.map",
     "453.5af0a012.chunk.js.map": "/brandon_atkinson_portfolio/static/js/453.5af0a012.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1526338.css",
-    "static/js/main.1db1786e.js"
+    "static/css/main.087b59ed.css",
+    "static/js/main.7464fbec.js"
   ]
 }
