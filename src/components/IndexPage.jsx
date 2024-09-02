@@ -42,7 +42,6 @@ const IndexPage = () => {
     return (
 
         <div className="index_container" >
-            <div className='scroll-progress'></div>
             <div className="navbar_container">
                 <li className="navbar_list">
                     <ul className="navbar_item" onClick={homeHandler}> <p className="navbar_text"> HOME </p></ul>
