@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/brandon_atkinson_portfolio/static/css/main.087b59ed.css",
-    "main.js": "/brandon_atkinson_portfolio/static/js/main.91bc101e.js",
+    "main.js": "/brandon_atkinson_portfolio/static/js/main.1e757d45.js",
     "static/js/453.5af0a012.chunk.js": "/brandon_atkinson_portfolio/static/js/453.5af0a012.chunk.js",
     "static/media/LastOrdersPortf.png": "/brandon_atkinson_portfolio/static/media/LastOrdersPortf.99bbb58c189790b8ccdc.png",
     "static/media/loScreenshot5.png": "/brandon_atkinson_portfolio/static/media/loScreenshot5.7d47d6ec0f19a13d6236.png",
@@ -11,9 +11,12 @@
     "static/media/loScreenshot3.png": "/brandon_atkinson_portfolio/static/media/loScreenshot3.96d0139d93f381f4707e.png",
     "static/media/loScreenshot2.png": "/brandon_atkinson_portfolio/static/media/loScreenshot2.b6bfd6f971c46777eb63.png",
     "static/media/loScreenshot7.png": "/brandon_atkinson_portfolio/static/media/loScreenshot7.15cd396feba41fe0fd9f.png",
+    "static/media/lmsScreenshot1.png": "/brandon_atkinson_portfolio/static/media/lmsScreenshot1.499a31554f660d123de6.png",
     "static/media/fdmScreenshot3.png": "/brandon_atkinson_portfolio/static/media/fdmScreenshot3.761daa7016ec8d9b70cd.png",
+    "static/media/lmsScreenshot2.png": "/brandon_atkinson_portfolio/static/media/lmsScreenshot2.6c27cf1e2c41f10278cf.png",
     "static/media/tttScreenshot1.png": "/brandon_atkinson_portfolio/static/media/tttScreenshot1.98ed8ea9c4c7bda7b655.png",
     "static/media/fdmScreenshot2.png": "/brandon_atkinson_portfolio/static/media/fdmScreenshot2.3fd2958a64240369bd1a.png",
+    "static/media/lmsScreenshot3.png": "/brandon_atkinson_portfolio/static/media/lmsScreenshot3.7f94f143fe54b196e6f5.png",
     "static/media/fdmScreenshot1.png": "/brandon_atkinson_portfolio/static/media/fdmScreenshot1.22db6de059828bd8450d.png",
     "static/media/brandon_cv.pdf": "/brandon_atkinson_portfolio/static/media/brandon_cv.1209a0ed08902c8937c6.pdf",
     "static/media/index_me.png": "/brandon_atkinson_portfolio/static/media/index_me.d0f04e246fac3991d31d.png",
@@ -33,11 +36,11 @@
     "static/media/FDMPortf.png": "/brandon_atkinson_portfolio/static/media/FDMPortf.dc4ebe38c451dc50ebb6.png",
     "index.html": "/brandon_atkinson_portfolio/index.html",
     "main.087b59ed.css.map": "/brandon_atkinson_portfolio/static/css/main.087b59ed.css.map",
-    "main.91bc101e.js.map": "/brandon_atkinson_portfolio/static/js/main.91bc101e.js.map",
+    "main.1e757d45.js.map": "/brandon_atkinson_portfolio/static/js/main.1e757d45.js.map",
     "453.5af0a012.chunk.js.map": "/brandon_atkinson_portfolio/static/js/453.5af0a012.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.087b59ed.css",
-    "static/js/main.91bc101e.js"
+    "static/js/main.1e757d45.js"
   ]
 }
