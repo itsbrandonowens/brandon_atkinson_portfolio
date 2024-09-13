@@ -33,7 +33,17 @@ const Portfolio = () => {
                         <h1 className="portfolio_text"> Consultant Framework </h1>
                         <h2 className="portfolio_text_2"> FDM Group</h2>
                     </div>
-                </div></Link>      
+                </div></Link>  
+
+                <Link to="/chess_game" style={{ color: "black", textDecoration: 'none' }}> <div className="portfolio_mini_grid">
+                    <div className="portfolio_top">
+                        <img src={JavaPort} className="portfolio_image" alt="Java Logo"></img>
+                    </div>
+                    <div className="portfolio_bottom">
+                        <h1 className="portfolio_text"> Java Chess Game </h1>
+                        <h2 className="portfolio_text_2"> Java Project</h2>
+                    </div>
+                </div></Link>     
 
                 <Link to="/lms_project" style={{ color: "black", textDecoration: 'none' }}> <div className="portfolio_mini_grid">
                     <div className="portfolio_top">
