@@ -10,7 +10,7 @@ import { motion } from "framer-motion"
 //make it scroll to top of page when opened
 
 class LMSImageSlider extends React.Component {
-    state = {
+    state = { 
         images: [
             lmsImage1,
             lmsImage2,
@@ -44,7 +44,25 @@ class LMSImageSlider extends React.Component {
         window.scrollTo({ top: 0, behavior: 'smooth' })
     };
 
+    prevHandler = () => {
+        const { images, currentIndex } = this.state;
+        const prevIndex = (currentIndex -1);
+        if (currentIndex > 0) {
 
+           this.setState({currentIndex:prevIndex})
+        }
+        console.log("Prev");
+    };
+
+    nextHandler = () => {
+        const { images, currentIndex } = this.state;
+        const nextIndex = (currentIndex +1);
+        if (currentIndex < (images.length-1)) {
+
+           this.setState({currentIndex:nextIndex})
+        }
+        console.log("Next");
+    };
 
     render() {
         const { images, currentIndex } = this.state;
@@ -62,7 +80,8 @@ class LMSImageSlider extends React.Component {
                     <h1 className="p_detail_subtitle"> Java Project</h1>
 
                     <img className="p_image" src={currentImage} alt={`Image ${currentIndex}`} />
-
+                    <button className ="prev_button" onClick={this.prevHandler}> Prev </button>
+                    <button className ="next_button" onClick={this.nextHandler}> Next </button>
                     <div className="p_details_container">
                         <p className="p_details_text">
                             The Library Management System is a console-based Java application designed to manage a library's operations efficiently.

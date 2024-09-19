@@ -23,9 +23,9 @@ class BJImageSlider extends React.Component {
                     <a href="https://itsbrandonowens.github.io/brandon_atkinson_portfolio/"> <button className="back_button" > Go Back </button></a>
                     <h1 className="p_detail_title"> Python Blackjack </h1>
                     <h1 className="p_detail_subtitle"> Personal Project</h1>
-
+ 
                     <img className="p_image" src={bjImage1} alt="Python Blackjack" /> 
-
+                   
                     <div className="p_details_container">
                         <p className="p_details_text">
                             I created a working game of Blackjack in Python. I did this as a second project while learning Python. 

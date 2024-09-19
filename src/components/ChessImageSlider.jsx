@@ -5,6 +5,7 @@ import chessImage3 from "./images/chessScreenshot3.png"
 import chessImage4 from "./images/chessScreenshot4.png"
 import '../styles/PortfolioDetails.css'
 import { motion } from "framer-motion"
+import { useState } from 'react';
 
 // dots underneath image to show what image its on that are clickable
 // add arrows to images 
@@ -20,7 +21,7 @@ class ChessImageSlider extends React.Component {
         ],
         currentIndex: 0
     }; // The images to scroll through
-
+    
     componentDidMount() {
         this.startSlider();
         window.scrollTo({ top: 0, behavior: 'smooth' }) //starts the slider and scrolls the page to the top 
@@ -46,12 +47,35 @@ class ChessImageSlider extends React.Component {
         window.scrollTo({ top: 0, behavior: 'smooth' })
     };
 
+    prevHandler = () => {
+        const { images, currentIndex } = this.state;
+        const prevIndex = (currentIndex -1);
+        if (currentIndex > 0) {
+
+           this.setState({currentIndex:prevIndex})
+        }
+        console.log("Prev");
+    };
+
+    nextHandler = () => {
+        const { images, currentIndex } = this.state;
+        const nextIndex = (currentIndex +1);
+        if (currentIndex < (images.length-1)) {
+
+           this.setState({currentIndex:nextIndex})
+        }
+        console.log("Next");
+    };
+
+
 
 
     render() {
         const { images, currentIndex } = this.state;
         const currentImage = images[currentIndex];
+        
 
+        
         return (
             <motion.div
                 initial={{ opacity: 0 }}
@@ -60,12 +84,14 @@ class ChessImageSlider extends React.Component {
                 transition={{ duration: 1.3 }}>
                 <div class="portfolio_details_container">
                     <a href="https://itsbrandonowens.github.io/brandon_atkinson_portfolio/"> <button className="back_button" > Go Back </button></a>
-                    <h1 className="p_detail_title"> Fully Functional Chess Game </h1>
+                    <h1 className="p_detail_title"> Chess in Java </h1>
                     <a href="https://github.com/itsbrandonowens/brandons_simple_chess" target="_blank"><h1 className="p_detail_subtitle"> Java Project Code</h1></a>
 
                     <img className="p_image" src={currentImage} alt={`Image ${currentIndex}`} />
-
+                    <button className ="prev_button" onClick={this.prevHandler}> Prev </button>
+                    <button className ="next_button" onClick={this.nextHandler}> Next </button>
                     <div className="p_details_container">
+                    
                         <p className="p_details_text">
                         I developed a fully functional chess game using Java, focusing on object-oriented programming principles. The game features all standard chess rules, 
                         including check, checkmate, and stalemate. The user interface allows players to make moves via a grid-based board, highlighting valid moves for selected pieces.

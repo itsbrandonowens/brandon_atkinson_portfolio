@@ -45,9 +45,27 @@ class FDMImageSlider extends React.Component {
         window.scrollTo({ top: 0, behavior: 'smooth' }) 
     };
 
+    prevHandler = () => {
+        const { images, currentIndex } = this.state;
+        const prevIndex = (currentIndex -1);
+        if (currentIndex > 0) {
 
+           this.setState({currentIndex:prevIndex})
+        }
+        console.log("Prev");
+    };
 
-    render() {
+    nextHandler = () => {
+        const { images, currentIndex } = this.state;
+        const nextIndex = (currentIndex +1);
+        if (currentIndex < (images.length-1)) {
+
+           this.setState({currentIndex:nextIndex})
+        }
+        console.log("Next");
+    };
+
+    render() { 
         const { images, currentIndex } = this.state;
         const currentImage = images[currentIndex];
 
@@ -63,7 +81,8 @@ class FDMImageSlider extends React.Component {
                     <h1 className="p_detail_subtitle"> FDM Group</h1>
 
                     <img className="p_image" src={currentImage} alt={`Image ${currentIndex}`} /> 
-
+                    <button className ="prev_button" onClick={this.prevHandler}> Prev </button>
+                    <button className ="next_button" onClick={this.nextHandler}> Next </button>
                     <div className="p_details_container">
                         <p className="p_details_text">
                             I was the Lead Developer in creating a Consultant Career Framework at FDM Group. This project lasted from March 2023 until April 2024. 

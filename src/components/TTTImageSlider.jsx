@@ -14,7 +14,7 @@ class TTTImageSlider extends React.Component {
 
     render() {
         return (
-            <motion.div
+            <motion.div 
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
@@ -25,7 +25,7 @@ class TTTImageSlider extends React.Component {
                     <h1 className="p_detail_subtitle"> Personal Project</h1>
 
                     <img className="p_image" src={tttImage1} alt="Python Blackjack" /> 
-
+                    
                     <div className="p_details_container">
                         <p className="p_details_text">
                             I created a working game of Tic-Tac-Toe in Python. I did this as a way to start learning Python. 

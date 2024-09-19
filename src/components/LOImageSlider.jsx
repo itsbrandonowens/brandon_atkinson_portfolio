@@ -57,7 +57,25 @@ class LOImageSlider extends React.Component {
     footerHandler = () => {
         window.scrollTo({ top: 0, behavior: 'smooth' }) 
     };
+    prevHandler = () => {
+        const { images, currentIndex } = this.state;
+        const prevIndex = (currentIndex -1);
+        if (currentIndex > 0) {
 
+           this.setState({currentIndex:prevIndex})
+        }
+        console.log("Prev");
+    };
+
+    nextHandler = () => {
+        const { images, currentIndex } = this.state;
+        const nextIndex = (currentIndex +1);
+        if (currentIndex < (images.length-1)) {
+
+           this.setState({currentIndex:nextIndex})
+        }
+        console.log("Next");
+    };
 
 
     render() {
@@ -76,11 +94,12 @@ class LOImageSlider extends React.Component {
                     <a href="https://lastordersgame.com" target="_blank" style={{ color: "black", textDecoration: 'none' }}><h1 className="p_detail_subtitle"> lastordersgame.com </h1></a>
 
                     <a href="https://lastordersgame.com" target="_blank" style={{ color: "black", textDecoration: 'none' }}> <img className="p_image" src={currentImage} alt={`Image ${currentIndex}`} /> </a>
-
+                    <button className ="prev_button" onClick={this.prevHandler}> Prev </button>
+                    <button className ="next_button" onClick={this.nextHandler}> Next </button>
                     <div className="p_details_container">
                         <p className="p_details_text">
                             Last Orders is a card-based drinking game that I started creating in August of 2023.
-                        </p>
+                        </p> 
                         <p className="p_details_text">
                             I started creating Last Orders just as something to use with my friends on a weekend. I did not anticipate it to become something that I would eventually
                             release to the App Store to the world. It just worked out that way. It started off as a really basic game, with no images, and some horrendous CSS. However,
