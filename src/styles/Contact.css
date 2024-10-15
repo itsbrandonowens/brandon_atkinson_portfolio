@@ -2,7 +2,7 @@
 /* The CSS Below is for Mobile in portrait orientation*/
 @media only screen and (max-width: 649px) {
     .contact_container {
-        margin-top: 30%;
+        margin-top: 50%;
         height: 200vw;
     }
 
