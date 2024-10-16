@@ -7,6 +7,7 @@ import BJImageSlider from './components/BJImageSlider';
 import TTTImageSlider from './components/TTTImageSlider';
 import LMSImageSlider from './components/LMSImageSlider'
 import ChessImageSlider from './components/ChessImageSlider';
+import TMSImageSlider from './components/TMSImageSlider';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path='/blackjack' element={<BJImageSlider />} />
         <Route path='/tictactoe' element={<TTTImageSlider />} />
         <Route path='/chess_game' element={<ChessImageSlider />} />
+        <Route path='/tms_project' element={<TMSImageSlider />} />
       </Routes>
     </div>
 

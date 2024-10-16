@@ -356,8 +356,8 @@
     }
 
     .p_image {
-        width: 70%;
-        margin-left: 15%;
+        width: 60%;
+        margin-left: 20%;
         margin-top: 2%;
         filter: drop-shadow(0px 0px 5px #000000);
         border-radius: 20px;
@@ -421,17 +421,16 @@
     .prev_button{
         margin-top:2%;
         margin-left:30%;
-        padding-top: 1%;
-        padding-bottom: 1%;
-        
-        width: 10%;
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+        width: 5%;
         border: solid black;
         outline: none;
         background-color: #111111;
         color: #eee;
         border-radius: 7px;
         font-weight: 500;
-        font-size: 1vw;
+        font-size: 0.8vw;
         cursor: pointer;
         transition: all 0.25s ease-out;
         font-family: "Open Sans", sans-serif;
@@ -441,20 +440,18 @@
         transform: translateY(-3px);
     }
 
-    .next_button{
-        
-        margin-left:20%;
-        padding-top: 1%;
-        padding-bottom: 1%;
-
-        width: 10%;
+    .next_button{ 
+        margin-left:30%;
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+        width: 5%;
         border: solid black;
         outline: none;
         background-color: #111111;
         color: #eee;
         border-radius: 7px;
         font-weight: 500;
-        font-size: 1vw;
+        font-size: 0.8vw;
         cursor: pointer;
         transition: all 0.25s ease-out;
         font-family: "Open Sans", sans-serif;

@@ -4,6 +4,7 @@ import loPortf1 from './images/LastOrdersPortf.png'
 import fdmPortf1 from './images/FDMPortf.png'
 import pythonPort from './images/pythonPortf.png'
 import JavaPort from './images/javaLogo.png'
+import JavaReactPort from './images/javaReactLogo.png'
 import { Link } from 'react-router-dom'
 
 const Portfolio = () => {
@@ -34,6 +35,16 @@ const Portfolio = () => {
                         <h2 className="portfolio_text_2"> FDM Group</h2>
                     </div>
                 </div></Link>  
+
+                <Link to="/tms_project" style={{ color: "black", textDecoration: 'none' }}> <div className="portfolio_mini_grid">
+                    <div className="portfolio_top">
+                        <img src={JavaReactPort} className="portfolio_image" alt="JavaReact Logo"></img>
+                    </div>
+                    <div className="portfolio_bottom">
+                        <h1 className="portfolio_text"> Task Management </h1>
+                        <h2 className="portfolio_text_2"> Java, ReactJS + Spring Boot Project</h2>
+                    </div>
+                </div></Link>   
 
                 <Link to="/chess_game" style={{ color: "black", textDecoration: 'none' }}> <div className="portfolio_mini_grid">
                     <div className="portfolio_top">

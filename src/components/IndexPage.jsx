@@ -7,9 +7,11 @@ import githubLogo from './images/githubLogo.png'
 
 
 const IndexPage = () => {
-    //Follow video on phone
-    //make navbar sticky and change to a white background when scrolling and also have underline on whatever "page" its hovered over
-    //add css for mobile
+    // Java projects, python projects catagories for portfolio
+    // add dots to images in portfolio
+    // look at tailwind for css
+    // images in portfolio are too big, make them smaller 
+
 
 
 
