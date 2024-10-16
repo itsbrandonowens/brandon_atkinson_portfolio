@@ -90,7 +90,7 @@ class TMSImageSlider extends React.Component {
                 <div class="portfolio_details_container">
                     <a href="https://itsbrandonowens.github.io/brandon_atkinson_portfolio/"> <button className="back_button" > Go Back </button></a>
                     <h1 className="p_detail_title"> Full Stack - Task Management System </h1>
-                    <a href="https://github.com/itsbrandonowens/brandons_simple_chess" target="_blank"><h1 className="p_detail_subtitle"> GitHub Project Code</h1></a>
+                    <a href="https://github.com/itsbrandonowens/b_task_management_system" target="_blank"><h1 className="p_detail_subtitle"> GitHub Project Code</h1></a>
 
                     <img className="p_image" src={currentImage} alt={`Image ${currentIndex}`} />
                     <button className="prev_button" onClick={this.prevHandler}> Prev </button>
