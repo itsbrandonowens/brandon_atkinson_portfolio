@@ -75,7 +75,7 @@ class LMSImageSlider extends React.Component {
                 exit={{ opacity: 0 }}
                 transition={{ duration: 1.3 }}>
                 <div class="portfolio_details_container">
-                    <a href="https://itsbrandonowens.github.io/brandon_atkinson_portfolio/"> <button className="back_button" > Go Back </button></a>
+                    <a href="javascript:history.back()"> <button className="back_button" > Go Back </button></a>
                     <h1 className="p_detail_title"> Library Management System </h1>
                     <h1 className="p_detail_subtitle"> Java Project</h1>
 

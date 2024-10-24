@@ -8,10 +8,11 @@ import TTTImageSlider from './components/TTTImageSlider';
 import LMSImageSlider from './components/LMSImageSlider'
 import ChessImageSlider from './components/ChessImageSlider';
 import TMSImageSlider from './components/TMSImageSlider';
-
+import Navbar from './components/Navbar';
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='/brandon_atkinson_portfolio' element={<HomePage />} />

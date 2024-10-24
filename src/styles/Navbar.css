@@ -1,0 +1,267 @@
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+/* The CSS Below is for Mobile in portrait orientation*/
+@media only screen and (max-width: 649px) {
+    .navbar_container {
+        z-index: 100;
+        top: 0;
+        right:0;
+        width: 40%;
+        height:120vw;
+        background-color: #31363f;
+        
+    }
+    
+    .navbar_list {
+        text-decoration: none;
+        list-style: none;
+        display: block;
+        margin-left:-5%;
+        width:100%;
+        margin-top:10%;
+    }
+    
+    .navbar_item {
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 2vw;
+        color: #EEEEEE;
+        transition: all 0.25s ease-in-out;
+        margin-bottom:-15%;
+    }
+  
+    
+    .navbar_text {
+        font-family: "Open Sans", sans-serif;
+    }
+    
+    .no_list_style{
+        text-decoration: none;
+        list-style: none;
+    }
+    
+    .navbar_icon {
+       display:none;
+    }
+    
+    .navbar_subtitles {
+        display:none;
+    }
+    
+    .nav_image_me {
+        display:none;
+    }
+    
+    .navbar_name_text {
+        display:none;
+    
+    }
+    
+    .navbar_title_text {
+        display:none;
+    }
+    
+    
+    html, body { 
+        scroll-behavior: smooth
+      }
+    
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+/* The CSS Below is for Mobile in landscape orientation */
+@media only screen and (min-width:650px) and (max-width:993px) {
+    .navbar_container {
+        z-index: 100;
+        position: fixed;
+        top: 0;
+        float: left;
+        width: 12%;
+        background-color: #31363f;
+        height: 100vh;
+    }
+    
+    .navbar_list {
+        text-decoration: none;
+        list-style: none;
+        margin-bottom: 30%;
+    }
+    
+    .navbar_item {
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 1vw;
+        color: #EEEEEE;
+        display: flex;
+        width: 70%;
+        border-radius: 10px;
+        margin-left: 5%;
+        margin-top:-10%;
+        transition: all 0.25s ease-in-out;
+    }
+    
+    .navbar_item:hover {
+        background-color: #222831;
+    }
+    
+    .navbar_text {
+        font-family: "Open Sans", sans-serif;
+        margin-left:15%;
+        text-decoration: none;
+        list-style: none;
+    }
+    
+    .no_list_style{
+        text-decoration: none;
+        list-style: none;
+    }
+    
+    .navbar_icon {
+        position:fixed;
+        margin-top:0.8%;
+        left:2%;
+        height: 1.6vw;
+        float: left;
+    }
+    
+    .navbar_subtitles {
+        color: #76ABAE;
+        font-size: 1.2vw;
+        text-align: left;
+        margin-left: 9%;
+        margin-bottom: 12%;
+        font-family: "Open Sans", sans-serif;
+        cursor: default;
+    }
+    
+    .nav_image_me {
+        margin-top: 5%;
+        width: 20%;
+        border-radius: 100px;
+        margin-left: 2%;
+    }
+    
+    .navbar_name_text {
+        font-size: 0.8vw;
+        margin-left: 26%;
+        color: #EEEEEE;
+        position: absolute;
+        top: 0%;
+        font-family: "Open Sans", sans-serif;
+    
+    }
+    
+    .navbar_title_text {
+        font-size: 0.6vw;
+        margin-left: 26%;
+        color: #76abae;
+        position: absolute;
+        top: 2%;
+        font-family: "Open Sans", sans-serif;
+    }
+    
+    
+    html, body { 
+        scroll-behavior: smooth
+      }
+    
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+/* The CSS Below is for Desktop and Larger Devices */
+@media only screen and (min-width:992px) {
+.navbar_container {
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    float: left;
+    width: 12%;
+    background-color: #31363f;
+    height: 100vh;
+}
+
+.navbar_list {
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 30%;
+}
+
+.navbar_item {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 1vw;
+    color: #EEEEEE;
+    display: flex;
+    width: 70%;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-top:-10%;
+    transition: all 0.25s ease-in-out;
+}
+
+.navbar_item:hover {
+    background-color: #222831;
+}
+
+.navbar_text {
+    font-family: "Open Sans", sans-serif;
+    margin-left:15%;
+    text-decoration: none;
+    list-style: none;
+}
+
+.no_list_style{
+    text-decoration: none;
+    list-style: none;
+}
+
+.navbar_icon {
+    position:fixed;
+    margin-top:0.8%;
+    left:2%;
+    height: 1.6vw;
+    float: left;
+}
+
+.navbar_subtitles {
+    color: #76ABAE;
+    font-size: 1.2vw;
+    text-align: left;
+    margin-left: 9%;
+    margin-bottom: 12%;
+    font-family: "Open Sans", sans-serif;
+    cursor: default;
+}
+
+.nav_image_me {
+    margin-top: 5%;
+    width: 20%;
+    border-radius: 100px;
+    margin-left: 2%;
+}
+
+.navbar_name_text {
+    font-size: 0.8vw;
+    margin-left: 26%;
+    color: #EEEEEE;
+    position: absolute;
+    top: 0%;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.navbar_title_text {
+    font-size: 0.6vw;
+    margin-left: 26%;
+    color: #76abae;
+    position: absolute;
+    top: 2%;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+html, body { 
+    scroll-behavior: smooth
+  }
+
+}

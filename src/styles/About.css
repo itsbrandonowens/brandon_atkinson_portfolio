@@ -1,247 +1,290 @@
 /* --------------------------------------------------------------------------------------------------------------------------------------- */
 /* The CSS Below is for Mobile in portrait orientation*/
 @media only screen and (max-width: 649px) {
-    .about_container{
-        margin-top:40%;
-        height:120vw;
+    .about_container {
+        margin-top: 10%;
+        height: 60vh;
+    }
+
+    .about_grid {
+        display: grid;
+        grid-template-columns: 30% 50%;
+        margin-left: 5%;
+        column-gap: 40px;
+    }
+
+    .about_grid_item {
+        text-align: center;
         
     }
-    .about_title {
-        font-size:8vw;
-        text-align:center;
-        font-family: "Open Sans", sans-serif;
-        font-weight: 500;
-    }
-    .about_line_1{
-        width:40%;
-        height:0.5%;
-        background-color:black;
-        position:absolute;
-        margin-top:-5%;
-        left:30%;
 
-    }
-    .about_line_2{
-        width:20%;
-        height:0.5%;
-        background-color:black;
-        position:absolute;
-        margin-top:-2.5%;
-        left:40%;
+    .about_title {
+        font-size: 5vw;
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 600;
+        color: #EEEEEE;
     }
 
     .about_text {
-        font-size:3.5vw;
-        text-align:center;
+        font-size: 3vw;
         font-family: "Open Sans", sans-serif;
         font-weight: 500;
-        justify-content:center;
-        width:90%;
-        margin-left:5%;
-        margin-top:10%;
-        
-    }
-    
-    .lastOrdersLink {
-        text-decoration:none;
-        color:rgb(39, 14, 201);
+        justify-content: center;
+        width: 90%;
+        margin-left: 5%;
+        color: #EEEEEE;
     }
 
-    
-
-    .lastOrdersLink:hover{
-        text-decoration:none;
-        color:rgb(2, 131, 252);
+    .about_grid_text{
+        font-size: 3vw;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 500;
+        color: #EEEEEE;
+        margin-top:-6%;
     }
 
     .download_cv_button {
-        position:absolute;
-        margin-top:2%;
-        margin-left:25%;
+        position: absolute;
+        margin-top: 2%;
+        margin-left: 42%;
         padding-top: 1%;
-        padding-bottom:1%;
-        width:50%;
-        border: solid black;
+        padding-bottom: 1%;
+        width: 10%;
+        border: solid rgb(238, 238, 238);
         outline: none;
-        background-color: #111111;
-        color: #eee;
+        background-color: #76ABAE;
+        color: #eeeeee;
         border-radius: 7px;
         font-weight: 500;
         cursor: pointer;
         transition: all 0.25s ease-out;
-        font-size:4vw;
+        font-size: 1vw;
         font-family: "Open Sans", sans-serif;
     }
 
     .download_cv_button:hover {
         transform: translateY(-3px);
-      }
-      
-    
+    }
+
+    .about_subtitle {
+        font-size: 3.5vw;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 600;
+        color: #76ABAE;
+        margin-bottom: 10%;
+    }
+
+    .about_navbar_list {
+        text-decoration: none;
+        list-style: none;     
+    }
+
+    .about_navbar_item {
+        font-weight: 500;
+        font-size: 2vw;
+        color: #EEEEEE;
+        display: flex;
+        margin-top: -10%;
+        margin-left:-10%;
+        transition: all 0.25s ease-in-out;
+    }
+
+
 }
 
 /* --------------------------------------------------------------------------------------------------------------------------------------- */
 /* The CSS Below is for Mobile in landscape orientation */
 @media only screen and (min-width:650px) and (max-width:993px) {
 
-    .about_container{
-        margin-top:10%;
-        height:60vh;
+    .about_container {
+        margin-top: 10%;
+        height: 80vh;
+        margin-left: 6%;
+
+    }
+
+    .about_grid {
+        display: grid;
+        grid-template-columns: 30% 50%;
+        margin-left: 20%;
+        column-gap: 10px;
+    }
+
+    .about_grid_item {
+        text-align: center;
         
     }
+
     .about_title {
-        font-size:2vw;
-        text-align:center;
+        font-size: 2vw;
+        text-align: center;
         font-family: "Open Sans", sans-serif;
-        font-weight: 500;
-    }
-    .about_line_1{
-        width:10%;
-        height:0.3%;
-        background-color:black;
-        position:absolute;
-        margin-top:-1%;
-        left:45%;
-    }
-    .about_line_2{
-        width:6%;
-        height:0.3%;
-        background-color:black;
-        position:absolute;
-        margin-top:-0.5%;
-        left:47%;
+        font-weight: 600;
+        color: #EEEEEE;
     }
 
     .about_text {
-        font-size:1vw;
-        text-align:center;
+        font-size: 1vw;
         font-family: "Open Sans", sans-serif;
         font-weight: 500;
-        justify-content:center;
-        width:40%;
-        margin-left:30%;
-        margin-top:4%;
-        
-    }
-    
-    .lastOrdersLink {
-        text-decoration:none;
-        color:rgb(39, 14, 201);
+        justify-content: center;
+        width: 70%;
+        margin-left: 20%;
+        color: #EEEEEE;
     }
 
-    
-
-    .lastOrdersLink:hover{
-        text-decoration:none;
-        color:rgb(2, 131, 252);
+    .about_grid_text{
+        font-size: 1vw;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 500;
+        justify-content: center;
+        color: #EEEEEE;
+        margin-top:-6%;
     }
 
     .download_cv_button {
-        position:absolute;
-        margin-top:2%;
-        margin-left:45%;
+        position: absolute;
+        margin-top: 2%;
+        margin-left: 42%;
         padding-top: 1%;
-        padding-bottom:1%;
-        width:10%;
-        border: solid black;
+        padding-bottom: 1%;
+        width: 10%;
+        border: solid rgb(238, 238, 238);
         outline: none;
-        background-color: #111111;
-        color: #eee;
+        background-color: #76ABAE;
+        color: #eeeeee;
         border-radius: 7px;
         font-weight: 500;
         cursor: pointer;
         transition: all 0.25s ease-out;
-        font-size:1vw;
+        font-size: 1vw;
         font-family: "Open Sans", sans-serif;
     }
 
     .download_cv_button:hover {
         transform: translateY(-3px);
-      }
-      
-    
+    }
+
+    .about_subtitle {
+        font-size: 1.2vw;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 600;
+        color: #76ABAE;
+        margin-bottom: 8%;
+    }
+
+    .about_navbar_list {
+        text-decoration: none;
+        list-style: none;     
+    }
+
+    .about_navbar_item {
+        font-weight: 500;
+        font-size: 1vw;
+        color: #EEEEEE;
+        display: flex;
+        margin-top: -10%;
+        transition: all 0.25s ease-in-out;
+    }
+
+
 }
 
 /* --------------------------------------------------------------------------------------------------------------------------------------- */
 /* The CSS Below is for Desktop and Larger Devices */
 @media only screen and (min-width:992px) {
 
-    .about_container{
-        margin-top:10%;
-        height:60vh;
+    .about_container {
+        margin-top: 10%;
+        height: 80vh;
+        margin-left: 6%;
+
+    }
+
+    .about_grid {
+        display: grid;
+        grid-template-columns: 30% 50%;
+        margin-left: 20%;
+        column-gap: 10px;
+    }
+
+    .about_grid_item {
+        text-align: center;
         
     }
+
     .about_title {
-        font-size:2vw;
-        text-align:center;
+        font-size: 2vw;
+        text-align: center;
         font-family: "Open Sans", sans-serif;
-        font-weight: 500;
-    }
-    .about_line_1{
-        width:10%;
-        height:0.3%;
-        background-color:black;
-        position:absolute;
-        margin-top:-1%;
-        left:45%;
-    }
-    .about_line_2{
-        width:6%;
-        height:0.3%;
-        background-color:black;
-        position:absolute;
-        margin-top:-0.5%;
-        left:47%;
+        font-weight: 600;
+        color: #EEEEEE;
     }
 
     .about_text {
-        font-size:1vw;
-        text-align:center;
+        font-size: 1vw;
         font-family: "Open Sans", sans-serif;
         font-weight: 500;
-        justify-content:center;
-        width:40%;
-        margin-left:30%;
-        margin-top:4%;
-        
-    }
-    
-    .lastOrdersLink {
-        text-decoration:none;
-        color:rgb(39, 14, 201);
+        justify-content: center;
+        width: 70%;
+        margin-left: 20%;
+        color: #EEEEEE;
     }
 
-    
-
-    .lastOrdersLink:hover{
-        text-decoration:none;
-        color:rgb(2, 131, 252);
+    .about_grid_text{
+        font-size: 1vw;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 500;
+        justify-content: center;
+        color: #EEEEEE;
+        margin-top:-6%;
     }
 
     .download_cv_button {
-        position:absolute;
-        margin-top:2%;
-        margin-left:45%;
+        position: absolute;
+        margin-top: 2%;
+        margin-left: 42%;
         padding-top: 1%;
-        padding-bottom:1%;
-        width:10%;
-        border: solid black;
+        padding-bottom: 1%;
+        width: 10%;
+        border: solid rgb(238, 238, 238);
         outline: none;
-        background-color: #111111;
-        color: #eee;
+        background-color: #76ABAE;
+        color: #eeeeee;
         border-radius: 7px;
         font-weight: 500;
         cursor: pointer;
         transition: all 0.25s ease-out;
-        font-size:1vw;
+        font-size: 1vw;
         font-family: "Open Sans", sans-serif;
     }
 
     .download_cv_button:hover {
         transform: translateY(-3px);
-      }
-      
-    
+    }
+
+    .about_subtitle {
+        font-size: 1.2vw;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 600;
+        color: #76ABAE;
+        margin-bottom: 8%;
+    }
+
+    .about_navbar_list {
+        text-decoration: none;
+        list-style: none;     
+    }
+
+    .about_navbar_item {
+        font-weight: 500;
+        font-size: 1vw;
+        color: #EEEEEE;
+        display: flex;
+        margin-top: -10%;
+        transition: all 0.25s ease-in-out;
+    }
 
 
 }

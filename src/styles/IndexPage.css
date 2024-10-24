@@ -5,6 +5,7 @@
         height: 120vw;
         background: rgb(226, 226, 226);
         filter: drop-shadow(0px 0px 5px #000000);
+       
     }
     
     .index_image_me {
@@ -165,12 +166,7 @@
     }
 
 
-    .navbar_text:hover {
-        border-bottom: solid #111111;
-        transform: translateY(-5px);
-    }
-
-   
+    
 
 
 }
@@ -179,34 +175,10 @@
 /* The CSS Below is for Mobile in landscape orientation */
 @media only screen and (min-width:650px) and (max-width:993px) {
 
-    .index_container {
-        background: linear-gradient(90deg, rgb(255, 255, 255) 55%, rgb(213, 213, 213) 55%);
-        height: 100vh;
+    .index_container { 
+        background: linear-gradient(90deg, rgb(34, 40, 49) 55%, rgb(238, 238, 238) 55%);
+        height:100vh;
     }
-
-    .scroll-progress {
-        position: fixed;
-        height: 10px;
-        top: 0;
-        left: 0;
-        width: 100%;
-        background: rgb(82, 55, 127);
-        background: linear-gradient(270deg, rgb(95, 95, 95) 25%, rgb(214, 214, 214) 75%);
-        z-index: 1000;
-        animation: scroll-progress linear;
-        animation-timeline: scroll();
-    }
-
-    @keyframes scroll-progress {
-        from {
-           width:0px;
-        }
-
-        to {
-            width:100%;
-        }
-    }
-
 
     .index_image_me {
         width: 25%;
@@ -214,19 +186,18 @@
         bottom: 25%;
         right: 10%;
         filter: drop-shadow(0px 0px 14px #000000);
-
+        
     }
+
 
     .full_name_text {
         position: absolute;
-        margin-top: 14%;
-        left: 4%;
+        top:25%;
+        left: 15%;
         font-family: "Open Sans", sans-serif;
-        color: #000000;
+        color: #EEEEEE;
         font-size: 3vw;
-
         border-right: solid 2px black;
-
         display: inline-block;
         letter-spacing: 0.01em;
         width: 0;
@@ -235,6 +206,7 @@
         animation:
             type 2s steps(21) 1s forwards,
             blink 0.5s steps(1) infinite;
+
     }
 
     @keyframes type {
@@ -259,13 +231,14 @@
 
     .job_role_text {
         position: absolute;
-        margin-top: 18%;
-        left: 4%;
+        top:34%;
+        left: 15.1%;
         font-size: 1.5vw;
         font-family: "Open Sans", sans-serif;
         font-weight: 500;
         font-style: normal;
-        color: #000000;
+        color: #EEEEEE;
+        
     }
 
     .full_stop_text {
@@ -274,14 +247,14 @@
 
     .index_hire_me_button {
         position: absolute;
-        margin-top: 20.5%;
-        left: 4%;
+        top:42%;
+        left: 15%;
         padding-top: 1%;
         padding-bottom: 1%;
         width: 10%;
-        border: solid black;
+        border: solid 1px #EEEEEE;
         outline: none;
-        background-color: #111111;
+        background-color: #31363F;
         color: #eee;
         border-radius: 7px;
         font-weight: 500;
@@ -297,15 +270,15 @@
 
     .index_explore_more_button {
         position: absolute;
-        margin-top: 20.5%;
-        left: 15%;
+        top:42%;
+        left: 26%;
         padding-top: 1%;
         padding-bottom: 1%;
         width: 10%;
-        border: solid black;
+        border: solid 1px #EEEEEE;
         outline: none;
-        background-color: none;
-        color: #111111;
+        background-color: #76ABAE;
+        color: #EEEEEE;
         border-radius: 7px;
         font-weight: 500;
         font-size: 1vw;
@@ -318,38 +291,9 @@
         transform: translateY(-3px);
     }
 
-    .navbar_container {
-        z-index: 100;
-    }
-
-    .navbar_list {
-        position: absolute;
-        right: 0;
-        justify-content: right;
-        display: flex;
-        padding-right: 2%;
-        list-style: none;
-        width: 100%;
-    }
-
-    .navbar_item {
-        cursor: pointer;
-        font-weight: 500;
-        font-size: 1vw
-    }
-
-    .navbar_text {
-        font-family: "Open Sans", sans-serif;
-        transition: all 0.25s ease-in-out;
-    }
-
-    .navbar_text:hover {
-        border-bottom: solid #111111;
-        transform: translateY(-5px);
-    }
-
+    
     .socials_index_linked{
-        filter: drop-shadow(0px 0px 1px #000000);
+        filter: drop-shadow(0px 0px 5px #000000);
         position:absolute;
         right:28%;
         width:10%;
@@ -362,7 +306,7 @@
     }
 
     .socials_index_github {
-        filter: drop-shadow(0px 0px 1px #000000);
+        filter: drop-shadow(0px 0px 5px #000000);
         position:absolute;
         right:6%;
         width:10%;
@@ -380,9 +324,9 @@
 /* The CSS Below is for Desktop and Larger Devices */
 @media only screen and (min-width:992px) {
 
-    .index_container {
-        background: linear-gradient(90deg, rgb(255, 255, 255) 55%, rgb(213, 213, 213) 55%);
-        height: 100vh;
+    .index_container { 
+        background: linear-gradient(90deg, rgb(34, 40, 49) 55%, rgb(238, 238, 238) 55%);
+        height:100vh;
     }
 
     .index_image_me {
@@ -394,40 +338,15 @@
         
     }
 
-    .scroll-progress {
-        position: fixed;
-        height: 10px;
-        top: 0;
-        left: 0;
-        width: 100%;
-        background: rgb(82, 55, 127);
-        background: linear-gradient(270deg, rgb(95, 95, 95) 25%, rgb(214, 214, 214) 75%);
-        z-index: 1000;
-        animation: scroll-progress linear;
-        animation-timeline: scroll();
-        
-    }
-
-    @keyframes scroll-progress {
-        from {
-           width:0px;
-        }
-
-        to {
-            width:100%;
-        }
-    }
 
     .full_name_text {
         position: absolute;
-        margin-top: 14%;
-        left: 4%;
+        top:25%;
+        left: 15%;
         font-family: "Open Sans", sans-serif;
-        color: #000000;
+        color: #EEEEEE;
         font-size: 3vw;
-
         border-right: solid 2px black;
-
         display: inline-block;
         letter-spacing: 0.01em;
         width: 0;
@@ -461,13 +380,13 @@
 
     .job_role_text {
         position: absolute;
-        margin-top: 18%;
-        left: 4%;
+        top:34%;
+        left: 15.1%;
         font-size: 1.5vw;
         font-family: "Open Sans", sans-serif;
         font-weight: 500;
         font-style: normal;
-        color: #000000;
+        color: #EEEEEE;
         
     }
 
@@ -477,14 +396,14 @@
 
     .index_hire_me_button {
         position: absolute;
-        margin-top: 20.5%;
-        left: 4%;
+        top:42%;
+        left: 15%;
         padding-top: 1%;
         padding-bottom: 1%;
         width: 10%;
-        border: solid black;
+        border: solid 1px #EEEEEE;
         outline: none;
-        background-color: #111111;
+        background-color: #31363F;
         color: #eee;
         border-radius: 7px;
         font-weight: 500;
@@ -500,15 +419,15 @@
 
     .index_explore_more_button {
         position: absolute;
-        margin-top: 20.5%;
-        left: 15%;
+        top:42%;
+        left: 26%;
         padding-top: 1%;
         padding-bottom: 1%;
         width: 10%;
-        border: solid black;
+        border: solid 1px #EEEEEE;
         outline: none;
-        background-color: none;
-        color: #111111;
+        background-color: #76ABAE;
+        color: #EEEEEE;
         border-radius: 7px;
         font-weight: 500;
         font-size: 1vw;
@@ -521,36 +440,7 @@
         transform: translateY(-3px);
     }
 
-    .navbar_container {
-        z-index: 100;
-    }
-
-    .navbar_list {
-        position: absolute;
-        right: 0;
-        justify-content: right;
-        display: flex;
-        padding-right: 2%;
-        list-style: none;
-        width: 100%;
-    }
-
-    .navbar_item {
-        cursor: pointer;
-        font-weight: 500;
-        font-size: 1vw
-    }
-
-    .navbar_text {
-        font-family: "Open Sans", sans-serif;
-        transition: all 0.25s ease-in-out;
-    }
-
-    .navbar_text:hover {
-        border-bottom: solid #111111;
-        transform: translateY(-5px);
-    }
-
+    
     .socials_index_linked{
         filter: drop-shadow(0px 0px 5px #000000);
         position:absolute;

@@ -1,322 +1,353 @@
 /* --------------------------------------------------------------------------------------------------------------------------------------- */
 /* The CSS Below is for Mobile in portrait orientation*/
 @media only screen and (max-width: 649px) {
-
-    .back_button {
-        position: absolute;
-        top: 2%;
-        left: 3%;
-        padding-top: 1%;
-        padding-bottom: 1%;
-        width: 30%;
-        border: solid black;
-        outline: none;
-        background-color: #111111;
-        color: #eee;
-        border-radius: 7px;
-        font-weight: 500;
-        font-size: 4vw;
-        cursor: pointer;
-        transition: all 0.25s ease-out;
-        font-family: "Open Sans", sans-serif;
-
-    }
-
-    .p_detail_title {
-        margin-top: 20%;
-        font-size: 6vw;
-        text-align: center;
-        font-weight: 700;
-        color: rgb(68, 68, 68);
-    }
-
-    .p_detail_subtitle {
-        font-size: 4vw;
-        margin-top: -5%;
-        text-align: center;
-        font-weight: 700;
-        color: rgb(171, 29, 206);
-    }
-
-    .p_image {
-        width: 90%;
-        margin-left: 5%;
-        margin-top: 2%;
-        filter: drop-shadow(0px 0px 5px #000000);
-        border-radius: 5px;
-    }
-
-    .p_details_container {
-        margin-left: 10%;
-        margin-top: 5%;
-        width: 80%;
-
-    }
-
-    .p_details_text {
-        text-align: justify;
-        font-family: "Open Sans", sans-serif;
-        font-size: 3vw;
-    }
-
-
-    .tech_stack_header {
-        font-family: "Open Sans", sans-serif;
-        font-size: 4vw;
-        margin-top: 10%;
-        text-align: center;
-        text-decoration: underline;
-        font-weight: 700;
-    }
-
-    .tech_stack_images_group {
-        text-align: center;
-        margin-top: -1%;
-    }
-
-    .tech_stack_used_image {
-        margin-top: 1%;
-        width: 10%;
-        margin-left: 2%;
-        margin-bottom:5%;
+    .portfolio_details_container{
+        margin-left:6%;
+        }
         
-    }
-
-    .text_link {
-        color: rgb(171, 29, 206);
-        text-decoration: none;
-
-    }
-
-    .text_link:hover {
-        color: rgb(99, 14, 121);
-    }
-    .back_to_top{
-        display:none;
-    }
-
-    .prev_button{
-        margin-top:2%;
-        margin-left:20%;
-        padding-top: 1%;
-        padding-bottom: 1%;
-        width: 20%;
-        border: solid black;
-        outline: none;
-        background-color: #111111;
-        color: #eee;
-        border-radius: 7px;
-        font-weight: 500;
-        font-size: 3vw;
-        cursor: pointer;
-        transition: all 0.25s ease-out;
-        font-family: "Open Sans", sans-serif;
-    }
-
-    .prev_button:hover {
-        transform: translateY(-3px);
-    }
-
-    .next_button{    
-        margin-left:20%;
-        padding-top: 1%;
-        padding-bottom: 1%;
-        width: 20%;
-        border: solid black;
-        outline: none;
-        background-color: #111111;
-        color: #eee;
-        border-radius: 7px;
-        font-weight: 500;
-        font-size: 3vw;
-        cursor: pointer;
-        transition: all 0.25s ease-out;
-        font-family: "Open Sans", sans-serif;
-    }
-
-    .next_button:hover {
-        transform: translateY(-3px);
-    }
+        .back_button {
+            position: absolute;
+            top:5%;
+            left: 15%;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            width: 10%;
+            border: solid 1px #EEEEEE;
+            outline: none;
+            background-color: #31363F;
+            color: #eee;
+            border-radius: 7px;
+            font-weight: 500;
+            font-size: 1vw;
+            cursor: pointer;
+            transition: all 0.25s ease-out;
+            font-family: "Open Sans", sans-serif;
+        }
     
+        .back_button:hover {
+            transform: translateY(-3px);
+        }
+    
+        .p_detail_title {
+            font-size: 2.5vw;
+            text-align: center;
+            font-weight: 700;
+            color: rgb(68, 68, 68);
+            color:#EEEEEE;
+        }
+    
+        .p_detail_subtitle {
+            font-size: 1.5vw;
+            margin-top: -2%;
+            text-align: center;
+            font-weight: 700;
+            color:#76ABAE;
+        }
+    
+        .p_detail_subtitle:hover {
+            font-size: 1.5vw;
+            margin-top: -2%;
+            text-align: center;
+            font-weight: 700;
+            color: #507b7d;
+        }
+    
+        .p_image {
+            width: 60%;
+            margin-left: 20%;
+            margin-top: 2%;
+            filter: drop-shadow(0px 0px 5px #000000);
+            border-radius: 20px;
+        }
+    
+        .p_details_container {
+            margin-left: 20%;
+            margin-top:2%;
+            width: 60%;
+    
+        }
+    
+        .p_details_text {
+            text-align: justify;
+            font-family: "Open Sans", sans-serif;
+            font-size: 1vw;
+            color:#EEEEEE;
+        }
+    
+    
+        .tech_stack_header {
+            font-family: "Open Sans", sans-serif;
+            font-size: 1.2vw;
+            margin-top: 5%;
+            text-align: center;
+            text-decoration: underline;
+            font-weight: 700;
+            color:#EEEEEE;
+        }
+    
+        .tech_stack_images_group {
+            text-align: center;
+            margin-top: -1%;
+        }
+    
+        .tech_stack_used_image {
+            margin-top: 1%;
+            width: 5%;
+            margin-left: 2%;
+            
+        }
+    
+        .text_link {
+            color:#76ABAE;
+            text-decoration: none;
+    
+        }
+    
+        .text_link:hover {
+            color: #507b7d;
+        }
+        .back_to_top{
+            cursor: pointer;
+            text-align: center;
+            background: linear-gradient(180deg, #222831 0%, #31363F 25%);
+            font-size:0.8vw;
+            padding:1%;
+            font-family: "Open Sans", sans-serif;
+            font-weight:1000;
+            margin-top:5%;
+        }
+    
+        .prev_button{
+            margin-top:2%;
+            margin-left:30%;
+            padding-top: 0.5%;
+            padding-bottom: 0.5%;
+            width: 5%;
+            color: #eee;
+            font-weight: 500;
+            font-size: 0.8vw;
+            cursor: pointer;
+            transition: all 0.25s ease-out;
+            font-family: "Open Sans", sans-serif;
+            border: solid 1px #EEEEEE;
+            outline: none;
+            background-color: #76ABAE;
+            color: #EEEEEE;
+            border-radius: 7px;
+        }
+    
+        .prev_button:hover {
+            transform: translateY(-3px);
+        }
+    
+        .next_button{ 
+            margin-top:2%;
+            margin-left:30%;
+            padding-top: 0.5%;
+            padding-bottom: 0.5%;
+            width: 5%;
+            color: #eee;
+            font-weight: 500;
+            font-size: 0.8vw;
+            cursor: pointer;
+            transition: all 0.25s ease-out;
+            font-family: "Open Sans", sans-serif;
+            border: solid 1px #EEEEEE;
+            outline: none;
+            background-color: #76ABAE;
+            color: #EEEEEE;
+            border-radius: 7px;
+        }
+    
+        .next_button:hover {
+            transform: translateY(-3px);
+        }
 }
 
 /* --------------------------------------------------------------------------------------------------------------------------------------- */
 /* The CSS Below is for Mobile in landscape orientation */
 @media only screen and (min-width:650px) and (max-width:993px) {
 
-    .back_button {
-        position: absolute;
-        top: 2%;
-        left: 3%;
-        padding-top: 1%;
-        padding-bottom: 1%;
-        width: 10%;
-        border: solid black;
-        outline: none;
-        background-color: #111111;
-        color: #eee;
-        border-radius: 7px;
-        font-weight: 500;
-        font-size: 1vw;
-        cursor: pointer;
-        transition: all 0.25s ease-out;
-        font-family: "Open Sans", sans-serif;
-
-    }
-
-    .back_button:hover {
-        transform: translateY(-3px);
-    }
-
-    .p_detail_title {
-        margin-top: 10%;
-        font-size: 2.5vw;
-        text-align: center;
-        font-weight: 700;
-        color: rgb(68, 68, 68);
-    }
-
-    .p_detail_subtitle {
-        font-size: 1.5vw;
-        margin-top: -2%;
-        text-align: center;
-        font-weight: 700;
-        color: rgb(171, 29, 206);
-    }
-
-    .p_detail_subtitle:hover {
-        font-size: 1.5vw;
-        margin-top: -2%;
-        text-align: center;
-        font-weight: 700;
-        color: rgb(119, 19, 144);
-    }
-
-    .p_image {
-        width: 70%;
-        margin-left: 15%;
-        margin-top: 2%;
-        filter: drop-shadow(0px 0px 5px #000000);
-        border-radius: 20px;
-    }
-
-    .p_details_container {
-        margin-left: 20%;
-        margin-top: 2%;
-        width: 60%;
-
-    }
-
-    .p_details_text {
-        text-align: justify;
-        font-family: "Open Sans", sans-serif;
-        font-size: 1vw;
-    }
-
-
-    .tech_stack_header {
-        font-family: "Open Sans", sans-serif;
-        font-size: 1.2vw;
-        margin-top: 5%;
-        text-align: center;
-        text-decoration: underline;
-        font-weight: 700;
-    }
-
-    .tech_stack_images_group {
-        text-align: center;
-        margin-top: -1%;
-    }
-
-    .tech_stack_used_image {
-        margin-top: 1%;
-        width: 5%;
-        margin-left: 2%;
+    .portfolio_details_container{
+        margin-left:6%;
+        }
         
-    }
-
-    .text_link {
-        color: rgb(171, 29, 206);
-        text-decoration: none;
-
-    }
-
-    .text_link:hover {
-        color: rgb(99, 14, 121);
-    }
-    .back_to_top{
-        cursor: pointer;
-        text-align: center;
-        background: linear-gradient(180deg, rgba(241,241,241,1) 0%, rgba(255,255,255,1) 25%);
-        font-size:0.8vw;
-        padding:1%;
-        font-family: "Open Sans", sans-serif;
-        font-weight:1000;
-        margin-top:5%;
-    }
-
-    .prev_button{
-        margin-top:2%;
-        margin-left:30%;
-        padding-top: 1%;
-        padding-bottom: 1%;
-        width: 10%;
-        border: solid black;
-        outline: none;
-        background-color: #111111;
-        color: #eee;
-        border-radius: 7px;
-        font-weight: 500;
-        font-size: 1vw;
-        cursor: pointer;
-        transition: all 0.25s ease-out;
-        font-family: "Open Sans", sans-serif;
-    }
-
-    .prev_button:hover {
-        transform: translateY(-3px);
-    }
-
-    .next_button{
-        
-        margin-left:20%;
-        padding-top: 1%;
-        padding-bottom: 1%;
-
-        width: 10%;
-        border: solid black;
-        outline: none;
-        background-color: #111111;
-        color: #eee;
-        border-radius: 7px;
-        font-weight: 500;
-        font-size: 1vw;
-        cursor: pointer;
-        transition: all 0.25s ease-out;
-        font-family: "Open Sans", sans-serif;
-    }
-
-    .next_button:hover {
-        transform: translateY(-3px);
-    }
+        .back_button {
+            position: absolute;
+            top:5%;
+            left: 15%;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            width: 10%;
+            border: solid 1px #EEEEEE;
+            outline: none;
+            background-color: #31363F;
+            color: #eee;
+            border-radius: 7px;
+            font-weight: 500;
+            font-size: 1vw;
+            cursor: pointer;
+            transition: all 0.25s ease-out;
+            font-family: "Open Sans", sans-serif;
+        }
+    
+        .back_button:hover {
+            transform: translateY(-3px);
+        }
+    
+        .p_detail_title {
+            font-size: 2.5vw;
+            text-align: center;
+            font-weight: 700;
+            color: rgb(68, 68, 68);
+            color:#EEEEEE;
+        }
+    
+        .p_detail_subtitle {
+            font-size: 1.5vw;
+            margin-top: -2%;
+            text-align: center;
+            font-weight: 700;
+            color:#76ABAE;
+        }
+    
+        .p_detail_subtitle:hover {
+            font-size: 1.5vw;
+            margin-top: -2%;
+            text-align: center;
+            font-weight: 700;
+            color: #507b7d;
+        }
+    
+        .p_image {
+            width: 60%;
+            margin-left: 20%;
+            margin-top: 2%;
+            filter: drop-shadow(0px 0px 5px #000000);
+            border-radius: 20px;
+        }
+    
+        .p_details_container {
+            margin-left: 20%;
+            margin-top:2%;
+            width: 60%;
+    
+        }
+    
+        .p_details_text {
+            text-align: justify;
+            font-family: "Open Sans", sans-serif;
+            font-size: 1vw;
+            color:#EEEEEE;
+        }
+    
+    
+        .tech_stack_header {
+            font-family: "Open Sans", sans-serif;
+            font-size: 1.2vw;
+            margin-top: 5%;
+            text-align: center;
+            text-decoration: underline;
+            font-weight: 700;
+            color:#EEEEEE;
+        }
+    
+        .tech_stack_images_group {
+            text-align: center;
+            margin-top: -1%;
+        }
+    
+        .tech_stack_used_image {
+            margin-top: 1%;
+            width: 5%;
+            margin-left: 2%;
+            
+        }
+    
+        .text_link {
+            color:#76ABAE;
+            text-decoration: none;
+    
+        }
+    
+        .text_link:hover {
+            color: #507b7d;
+        }
+        .back_to_top{
+            cursor: pointer;
+            text-align: center;
+            background: linear-gradient(180deg, #222831 0%, #31363F 25%);
+            font-size:0.8vw;
+            padding:1%;
+            font-family: "Open Sans", sans-serif;
+            font-weight:1000;
+            margin-top:5%;
+        }
+    
+        .prev_button{
+            margin-top:2%;
+            margin-left:30%;
+            padding-top: 0.5%;
+            padding-bottom: 0.5%;
+            width: 5%;
+            color: #eee;
+            font-weight: 500;
+            font-size: 0.8vw;
+            cursor: pointer;
+            transition: all 0.25s ease-out;
+            font-family: "Open Sans", sans-serif;
+            border: solid 1px #EEEEEE;
+            outline: none;
+            background-color: #76ABAE;
+            color: #EEEEEE;
+            border-radius: 7px;
+        }
+    
+        .prev_button:hover {
+            transform: translateY(-3px);
+        }
+    
+        .next_button{ 
+            margin-top:2%;
+            margin-left:30%;
+            padding-top: 0.5%;
+            padding-bottom: 0.5%;
+            width: 5%;
+            color: #eee;
+            font-weight: 500;
+            font-size: 0.8vw;
+            cursor: pointer;
+            transition: all 0.25s ease-out;
+            font-family: "Open Sans", sans-serif;
+            border: solid 1px #EEEEEE;
+            outline: none;
+            background-color: #76ABAE;
+            color: #EEEEEE;
+            border-radius: 7px;
+        }
+    
+        .next_button:hover {
+            transform: translateY(-3px);
+        }
 }
 
 /* --------------------------------------------------------------------------------------------------------------------------------------- */
 /* The CSS Below is for Desktop and Larger Devices */
 @media only screen and (min-width:992px) {
-
+    .portfolio_details_container{
+    margin-left:6%;
+    }
     
-
     .back_button {
         position: absolute;
-        top: 2%;
-        left: 3%;
+        top:5%;
+        left: 15%;
         padding-top: 1%;
         padding-bottom: 1%;
         width: 10%;
-        border: solid black;
+        border: solid 1px #EEEEEE;
         outline: none;
-        background-color: #111111;
+        background-color: #31363F;
         color: #eee;
         border-radius: 7px;
         font-weight: 500;
@@ -324,7 +355,6 @@
         cursor: pointer;
         transition: all 0.25s ease-out;
         font-family: "Open Sans", sans-serif;
-
     }
 
     .back_button:hover {
@@ -332,11 +362,11 @@
     }
 
     .p_detail_title {
-        margin-top: 5%;
         font-size: 2.5vw;
         text-align: center;
         font-weight: 700;
         color: rgb(68, 68, 68);
+        color:#EEEEEE;
     }
 
     .p_detail_subtitle {
@@ -344,7 +374,7 @@
         margin-top: -2%;
         text-align: center;
         font-weight: 700;
-        color: rgb(171, 29, 206);
+        color:#76ABAE;
     }
 
     .p_detail_subtitle:hover {
@@ -352,7 +382,7 @@
         margin-top: -2%;
         text-align: center;
         font-weight: 700;
-        color: rgb(119, 19, 144);
+        color: #507b7d;
     }
 
     .p_image {
@@ -374,6 +404,7 @@
         text-align: justify;
         font-family: "Open Sans", sans-serif;
         font-size: 1vw;
+        color:#EEEEEE;
     }
 
 
@@ -384,6 +415,7 @@
         text-align: center;
         text-decoration: underline;
         font-weight: 700;
+        color:#EEEEEE;
     }
 
     .tech_stack_images_group {
@@ -399,18 +431,18 @@
     }
 
     .text_link {
-        color: rgb(171, 29, 206);
+        color:#76ABAE;
         text-decoration: none;
 
     }
 
     .text_link:hover {
-        color: rgb(99, 14, 121);
+        color: #507b7d;
     }
     .back_to_top{
         cursor: pointer;
         text-align: center;
-        background: linear-gradient(180deg, rgba(241,241,241,1) 0%, rgba(255,255,255,1) 25%);
+        background: linear-gradient(180deg, #222831 0%, #31363F 25%);
         font-size:0.8vw;
         padding:1%;
         font-family: "Open Sans", sans-serif;
@@ -424,16 +456,17 @@
         padding-top: 0.5%;
         padding-bottom: 0.5%;
         width: 5%;
-        border: solid black;
-        outline: none;
-        background-color: #111111;
         color: #eee;
-        border-radius: 7px;
         font-weight: 500;
         font-size: 0.8vw;
         cursor: pointer;
         transition: all 0.25s ease-out;
         font-family: "Open Sans", sans-serif;
+        border: solid 1px #EEEEEE;
+        outline: none;
+        background-color: #76ABAE;
+        color: #EEEEEE;
+        border-radius: 7px;
     }
 
     .prev_button:hover {
@@ -441,20 +474,22 @@
     }
 
     .next_button{ 
+        margin-top:2%;
         margin-left:30%;
         padding-top: 0.5%;
         padding-bottom: 0.5%;
         width: 5%;
-        border: solid black;
-        outline: none;
-        background-color: #111111;
         color: #eee;
-        border-radius: 7px;
         font-weight: 500;
         font-size: 0.8vw;
         cursor: pointer;
         transition: all 0.25s ease-out;
         font-family: "Open Sans", sans-serif;
+        border: solid 1px #EEEEEE;
+        outline: none;
+        background-color: #76ABAE;
+        color: #EEEEEE;
+        border-radius: 7px;
     }
 
     .next_button:hover {

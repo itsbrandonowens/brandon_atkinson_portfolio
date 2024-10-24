@@ -1,186 +1,86 @@
 /* --------------------------------------------------------------------------------------------------------------------------------------- */
 /* The CSS Below is for Mobile in portrait orientation*/
 @media only screen and (max-width: 649px) {
-
     .service_container {
-        margin-top: 8%;
-        height: 190vw;
-        width:90%;
-        box-shadow: 0px 0px 10px 10px rgb(199, 199, 199);
-        margin-left:5%;
+        margin-top: 5%;
+        height: 80vh;
+        width:80%;
+        border: solid 1px #EEEEEE;
+        border-radius: 10px;
+        margin-left:10%;
     }
 
     .service_title {
-        font-size: 8vw;
+        font-size: 5vw;
         text-align: center;
         font-family: "Open Sans", sans-serif;
-        font-weight: 500;
+        font-weight: 600;
         padding-top:5%;
+        color:#EEEEEE;
+        margin-top:-2%;
     }
 
-    .about_line_1{
-        width:40%;
-        height:0.5%;
-        background-color:black;
-        position:absolute;
-        margin-top:-5%;
-        left:30%;
-
-    }
-    .about_line_2{
-        width:20%;
-        height:0.5%;
-        background-color:black;
-        position:absolute;
-        margin-top:-2.5%;
-        left:40%;
-    }
 
     .service_content_grid{
         display:grid;
         grid-template-rows: 33% 33% 33%;
-        row-gap:5%;
-        margin:5%;
+        margin:5% 5% 4% 5%;
         text-align: center;
         justify-content: center;
+
     }
 
     .service_header{
-        font-size: 5vw;
+        font-size: 3vw;
         font-weight:500;
-        margin-top:-3%;
         text-align: center;
         font-family: "Open Sans", sans-serif;
-
+        color:#EEEEEE;
     }
 
     .service_image{
         width:20%;
+        animation: scroll-progress-rotate linear;
+        animation-timeline: scroll();
     }
+
     .service_text{
-        width:90%;
-        margin-left:5%;
-        font-size:3.5vw;
-        
+        width:80%;
+        margin-left:10%;
+        font-size:2vw;
+        color:#EEEEEE;
     }
 
     .service_slider_individual{
-        margin-top:25%;
-        width:30%;
+        width:40%;
         filter: drop-shadow(0px 0px 1px #000000);
     }
+
+   
 }
 
 /* --------------------------------------------------------------------------------------------------------------------------------------- */
 /* The CSS Below is for Mobile in landscape orientation */
 @media only screen and (min-width:650px) and (max-width:993px) {
-
     .service_container {
-        margin-top: 8%;
-        height: 90vh;
-        width:90%;
-        box-shadow: 0px 0px 10px 10px rgb(199, 199, 199);
-        
-        margin-left:5%;
-    }
-
-    .service_title {
-        font-size: 2vw;
-        text-align: center;
-        font-family: "Open Sans", sans-serif;
-        font-weight: 500;
-        padding-top:5%;
-    }
-
-    .about_line_1 {
-        width: 10%;
-        height: 0.3%;
-        background-color: black;
-        position: absolute;
-        margin-top: -1%;
-        left: 45%;
-    }
-
-    .about_line_2 {
-        width: 6%;
-        height: 0.3%;
-        background-color: black;
-        position: absolute;
-        margin-top: -0.5%;
-        left: 47%;
-    }
-
-    .service_content_grid{
-        display:grid;
-        grid-template-columns: 33% 33% 33%;
-        margin:5%;
-        text-align: center;
-        justify-content: center;
-
-    }
-
-    .service_header{
-        font-size: 2vw;
-        font-weight:500;
-        text-align: center;
-        font-family: "Open Sans", sans-serif;
-
-    }
-
-    .service_image{
-        width:20%;
-    }
-    .service_text{
+        margin-top: 5%;
+        height: 80vh;
         width:80%;
-        margin-left:10%;
-        font-size:1.2vw;
-    }
-
-    .service_slider_individual{
-        
-        width:20%;
-        filter: drop-shadow(0px 0px 1px #000000);
-        
-    }
-}
-
-/* --------------------------------------------------------------------------------------------------------------------------------------- */
-/* The CSS Below is for Desktop and Larger Devices */
-@media only screen and (min-width:992px) {
-
-    .service_container {
-        margin-top: 8%;
-        height: 90vh;
-        width:90%;
-        box-shadow: 0px 0px 10px 10px rgb(199, 199, 199);
-        margin-left:5%;
+        border: solid 1px #EEEEEE;
+        border-radius: 10px;
+        margin-left:16%;
     }
 
     .service_title {
         font-size: 2vw;
         text-align: center;
         font-family: "Open Sans", sans-serif;
-        font-weight: 500;
+        font-weight: 600;
         padding-top:5%;
+        color:#EEEEEE;
+        margin-top:-2%;
     }
 
-    .about_line_1 {
-        width: 10%;
-        height: 0.3%;
-        background-color: black;
-        position: absolute;
-        margin-top: -1%;
-        left: 45%;
-    }
-
-    .about_line_2 {
-        width: 6%;
-        height: 0.3%;
-        background-color: black;
-        position: absolute;
-        margin-top: -0.5%;
-        left: 47%;
-    }
 
     .service_content_grid{
         display:grid;
@@ -196,7 +96,7 @@
         font-weight:500;
         text-align: center;
         font-family: "Open Sans", sans-serif;
-
+        color:#EEEEEE;
     }
 
     .service_image{
@@ -208,10 +108,71 @@
     .service_text{
         width:80%;
         margin-left:10%;
-        font-size:1.2vw;
+        font-size:1vw;
+        color:#EEEEEE;
+    }
+    .service_slider_individual{
+        width:15%;
+        filter: drop-shadow(0px 0px 1px #000000);
+    }
+
+    
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+/* The CSS Below is for Desktop and Larger Devices */
+@media only screen and (min-width:992px) {
+
+    .service_container {
+        margin-top: 5%;
+        height: 80vh;
+        width:80%;
+        border: solid 1px #EEEEEE;
+        border-radius: 10px;
+        margin-left:16%;
+    }
+
+    .service_title {
+        font-size: 2vw;
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 600;
+        padding-top:5%;
+        color:#EEEEEE;
+        margin-top:-2%;
+    }
+
+
+    .service_content_grid{
+        display:grid;
+        grid-template-columns: 33% 33% 33%;
+        margin:5% 5% 4% 5%;
+        text-align: center;
+        justify-content: center;
+
+    }
+
+    .service_header{
+        font-size: 2vw;
+        font-weight:500;
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+        color:#EEEEEE;
+    }
+
+    .service_image{
+        width:20%;
+        animation: scroll-progress-rotate linear;
+        animation-timeline: scroll();
+    }
+
+    .service_text{
+        width:80%;
+        margin-left:10%;
+        font-size:1vw;
+        color:#EEEEEE;
     }
     
-
     .service_slider_individual{
         width:40%;
         filter: drop-shadow(0px 0px 1px #000000);

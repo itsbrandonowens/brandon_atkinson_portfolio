@@ -9,9 +9,6 @@ import '../styles/PortfolioDetails.css'
 import { motion } from "framer-motion"
 import { useState } from 'react';
 
-// dots underneath image to show what image its on that are clickable
-// add arrows to images 
-//make it scroll to top of page when opened
 
 class TMSImageSlider extends React.Component {
     state = {
@@ -88,7 +85,7 @@ class TMSImageSlider extends React.Component {
                 exit={{ opacity: 0 }}
                 transition={{ duration: 1.3 }}>
                 <div class="portfolio_details_container">
-                    <a href="https://itsbrandonowens.github.io/brandon_atkinson_portfolio/"> <button className="back_button" > Go Back </button></a>
+                    <a href="javascript:history.back()"> <button className="back_button" > Go Back </button></a>
                     <h1 className="p_detail_title"> Full Stack - Task Management System </h1>
                     <a href="https://github.com/itsbrandonowens/b_task_management_system" target="_blank"><h1 className="p_detail_subtitle"> GitHub Project Code</h1></a>
 

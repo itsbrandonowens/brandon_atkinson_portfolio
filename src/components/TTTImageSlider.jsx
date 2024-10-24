@@ -3,9 +3,7 @@ import tttImage1 from "./images/tttScreenshot1.png"
 import '../styles/PortfolioDetails.css'
 import { motion } from "framer-motion"
 
-// dots underneath image to show what image its on that are clickable
-// add arrows to images 
-//make it scroll to top of page when opened
+
 
 class TTTImageSlider extends React.Component {
     footerHandler = () => {
@@ -20,7 +18,7 @@ class TTTImageSlider extends React.Component {
                 exit={{ opacity: 0 }}
                 transition={{ duration: 1.3 }}>
                 <div class="portfolio_details_container">
-                    <a href="https://itsbrandonowens.github.io/brandon_atkinson_portfolio/"> <button className="back_button" > Go Back </button></a>
+                <a href="javascript:history.back()"> <button className="back_button" > Go Back </button></a>
                     <h1 className="p_detail_title"> Python Tic-Tac-Toe </h1>
                     <h1 className="p_detail_subtitle"> Personal Project</h1>
 

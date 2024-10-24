@@ -12,8 +12,6 @@ const Portfolio = () => {
 
         <div className="portfolio_container">
             <h1 className="portfolio_title" id="portfolio">MY PORTFOLIO</h1>
-            <div className="about_line_1"></div>
-            <div className="about_line_2"></div>
             <div className="portfolio_grid">
 
                 <Link to="/last_orders" style={{ color: "black", textDecoration: 'none' }}> <div className="portfolio_mini_grid">

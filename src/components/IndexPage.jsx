@@ -4,60 +4,23 @@ import { Link } from 'react-router-dom';
 import IndexPicture from './images/index_me.png'
 import linkedInLogo from './images/linkedInLogo.png'
 import githubLogo from './images/githubLogo.png'
-
+import brandon_cv from './brandon_cv.pdf'
 
 const IndexPage = () => {
-    // Java projects, python projects catagories for portfolio
-    // add dots to images in portfolio
-    // look at tailwind for css
-    // images in portfolio are too big, make them smaller 
-
-
-
-
-    // Scrolls back to the top of the page when "home" is clicked
-    const homeHandler = () => {
-        window.scrollTo({ top: 0, behavior: 'smooth' })
-    };
+    //space between icon and text in navbar needs fixed when sizing is different 
+    //improve mobile css
 
     // Gets the "about" titles id and scrolls until that is on the top of the view
     const aboutHandler = () => {
         document.getElementById('about').scrollIntoView({ behavior: "smooth" });
-
-    };
-
-    // Gets the "service" titles id and scrolls until that is on the top of the view
-    const serviceHandler = () => {
-        document.getElementById('service').scrollIntoView({ behavior: "smooth" });
-    };
-
-    // Gets the "service" titles id and scrolls until that is on the top of the view
-    const portfolioHandler = () => {
-        document.getElementById('portfolio').scrollIntoView({ behavior: "smooth" });
-    };
-
-    // Gets the "service" titles id and scrolls until that is on the top of the view
-    const contactHandler = () => {
-        document.getElementById('contact').scrollIntoView({ behavior: "smooth" });
-    };
+    }
 
     return (
 
-        <div className="index_container" >
-            <div className="navbar_container">
-                <li className="navbar_list">
-                    <ul className="navbar_item" onClick={homeHandler}> <p className="navbar_text"> HOME </p></ul>
-                    <ul className="navbar_item" onClick={aboutHandler}> <p className="navbar_text"> ABOUT </p></ul>
-                    <ul className="navbar_item" onClick={serviceHandler}> <p className="navbar_text"> SERVICE </p></ul>
-                    <ul className="navbar_item" onClick={portfolioHandler}> <p className="navbar_text"> PORTFOLIO </p></ul>
-                    <ul className="navbar_item" onClick={contactHandler}> <p className="navbar_text"> CONTACT </p></ul>
-                </li>
-
-            </div>
-
+        <div className="index_container" id="top" >
             <h1 className="full_name_text">Brandon Atkinson<span className="full_stop_text">.</span></h1>
-            <h2 className="job_role_text">Software Developer</h2>
-            <button className="index_hire_me_button" onClick={contactHandler}> Hire Me </button>
+            <h2 className="job_role_text">Full-Stack Software Developer</h2>
+            <a href={brandon_cv} target="_blank" ><button className="index_hire_me_button"> Download CV </button></a>
             <button className="index_explore_more_button" onClick={aboutHandler}> Explore More </button>
 
 
@@ -70,7 +33,6 @@ const IndexPage = () => {
                 </a>
                 <a href="https://github.com/itsbrandonowens" target="_blank" >
                     <img src={githubLogo} className="socials_index_github" alt="Brandon Atkinson Image"></img>
-
                 </a>
 
             
@@ -78,5 +40,6 @@ const IndexPage = () => {
 
     )
 }
+
 
 export default IndexPage
