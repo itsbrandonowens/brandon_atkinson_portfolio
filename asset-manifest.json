@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/brandon_atkinson_portfolio/static/css/main.3289985f.css",
-    "main.js": "/brandon_atkinson_portfolio/static/js/main.8c000cd7.js",
+    "main.js": "/brandon_atkinson_portfolio/static/js/main.5c59e91a.js",
     "static/js/453.593aa778.chunk.js": "/brandon_atkinson_portfolio/static/js/453.593aa778.chunk.js",
     "static/media/LastOrdersPortf.png": "/brandon_atkinson_portfolio/static/media/LastOrdersPortf.99bbb58c189790b8ccdc.png",
     "static/media/loScreenshot5.png": "/brandon_atkinson_portfolio/static/media/loScreenshot5.7d47d6ec0f19a13d6236.png",
@@ -47,11 +47,11 @@
     "static/media/frontendimg.png": "/brandon_atkinson_portfolio/static/media/frontendimg.9b8ffe94e61dd5ad3e65.png",
     "index.html": "/brandon_atkinson_portfolio/index.html",
     "main.3289985f.css.map": "/brandon_atkinson_portfolio/static/css/main.3289985f.css.map",
-    "main.8c000cd7.js.map": "/brandon_atkinson_portfolio/static/js/main.8c000cd7.js.map",
+    "main.5c59e91a.js.map": "/brandon_atkinson_portfolio/static/js/main.5c59e91a.js.map",
     "453.593aa778.chunk.js.map": "/brandon_atkinson_portfolio/static/js/453.593aa778.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3289985f.css",
-    "static/js/main.8c000cd7.js"
+    "static/js/main.5c59e91a.js"
   ]
 }
