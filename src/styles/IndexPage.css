@@ -5,43 +5,44 @@
         height: 120vw;
         background: rgb(226, 226, 226);
         filter: drop-shadow(0px 0px 5px #000000);
-       
+
     }
-    
+
     .index_image_me {
         width: 50%;
         position: absolute;
-        margin-top:2%;
+        margin-top: 2%;
         left: 2%;
         filter: drop-shadow(0px 0px 5px #000000);
 
     }
 
-    .socials_index_linked{
+    .socials_index_linked {
         filter: drop-shadow(0px 0px 5px #000000);
-        position:absolute;
-        left:0%;
-        width:15%;
-        margin-top:42%;
+        position: absolute;
+        left: 0%;
+        width: 15%;
+        margin-top: 42%;
         transform: rotate(-15deg);
         transition: all 0.25s ease-in-out;
     }
+
     .socials_index_linked:hover {
-        transform: rotate(15deg);     
+        transform: rotate(15deg);
     }
 
     .socials_index_github {
         filter: drop-shadow(0px 0px 5px #000000);
-        position:absolute;
-        left:39%;
-        width:15%;
-        margin-top:42%;
+        position: absolute;
+        left: 39%;
+        width: 15%;
+        margin-top: 42%;
         transform: rotate(15deg);
         transition: all 0.25s ease-in-out;
     }
 
-    .socials_index_github:hover{
-        transform: rotate(-15deg);     
+    .socials_index_github:hover {
+        transform: rotate(-15deg);
     }
 
     .full_name_text {
@@ -165,8 +166,46 @@
 
     }
 
+    .linked_in_button {
+        position: absolute;
+        top: 79%;
+        right:25%;
+        padding: 1%;
+        width:20%;
+        border: solid 1px #EEEEEE;
+        outline: none;
+        background-color: #31363F;
+        color: #eee;
+        border-radius: 7px;
+        font-weight: 500;
+        font-size: 1vw;
+        cursor: pointer;
+        transition: all 0.25s ease-out;
+        font-family: "Open Sans", sans-serif;
+    }
 
-    
+    .github_button {
+        position: absolute;
+        top: 79%;
+        right: 2%;
+        padding: 1%;
+        width:20%;
+        border: solid 1px #EEEEEE;
+        outline: none;
+        background-color: #31363F;
+        color: #eee;
+        border-radius: 7px;
+        font-weight: 500;
+        font-size: 1vw;
+        cursor: pointer;
+        transition: all 0.25s ease-out;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    .index_icon {
+        width: 50%;
+    }
+
 
 
 }
@@ -175,9 +214,9 @@
 /* The CSS Below is for Mobile in landscape orientation */
 @media only screen and (min-width:650px) and (max-width:993px) {
 
-    .index_container { 
+    .index_container {
         background: linear-gradient(90deg, rgb(34, 40, 49) 55%, rgb(238, 238, 238) 55%);
-        height:100vh;
+        height: 100vh;
     }
 
     .index_image_me {
@@ -186,13 +225,13 @@
         bottom: 25%;
         right: 10%;
         filter: drop-shadow(0px 0px 14px #000000);
-        
+
     }
 
 
     .full_name_text {
         position: absolute;
-        top:25%;
+        top: 25%;
         left: 15%;
         font-family: "Open Sans", sans-serif;
         color: #EEEEEE;
@@ -231,14 +270,14 @@
 
     .job_role_text {
         position: absolute;
-        top:34%;
+        top: 34%;
         left: 15.1%;
         font-size: 1.5vw;
         font-family: "Open Sans", sans-serif;
         font-weight: 500;
         font-style: normal;
         color: #EEEEEE;
-        
+
     }
 
     .full_stop_text {
@@ -247,7 +286,7 @@
 
     .index_hire_me_button {
         position: absolute;
-        top:42%;
+        top: 42%;
         left: 15%;
         padding-top: 1%;
         padding-bottom: 1%;
@@ -270,7 +309,7 @@
 
     .index_explore_more_button {
         position: absolute;
-        top:42%;
+        top: 42%;
         left: 26%;
         padding-top: 1%;
         padding-bottom: 1%;
@@ -291,32 +330,44 @@
         transform: translateY(-3px);
     }
 
-    
-    .socials_index_linked{
-        filter: drop-shadow(0px 0px 5px #000000);
-        position:absolute;
-        right:28%;
+    .linked_in_button {
+        position: absolute;
+        top: 78%;
+        left: 65%;
+        padding: 1%;
         width:10%;
-        top:60%;
-        transform: rotate(-15deg);
-        transition: all 0.25s ease-in-out;
-    }
-    .socials_index_linked:hover {
-        transform: rotate(15deg);     
+        border: solid 1px #EEEEEE;
+        outline: none;
+        background-color: #31363F;
+        color: #eee;
+        border-radius: 7px;
+        font-weight: 500;
+        font-size: 1vw;
+        cursor: pointer;
+        transition: all 0.25s ease-out;
+        font-family: "Open Sans", sans-serif;
     }
 
-    .socials_index_github {
-        filter: drop-shadow(0px 0px 5px #000000);
-        position:absolute;
-        right:6%;
+    .github_button {
+        position: absolute;
+        top: 78%;
+        right:10%;
+        padding: 1%;
         width:10%;
-        top:60%;
-        transform: rotate(15deg);
-        transition: all 0.25s ease-in-out;
+        border: solid 1px #EEEEEE;
+        outline: none;
+        background-color: #31363F;
+        color: #eee;
+        border-radius: 7px;
+        font-weight: 500;
+        font-size: 1vw;
+        cursor: pointer;
+        transition: all 0.25s ease-out;
+        font-family: "Open Sans", sans-serif;
     }
 
-    .socials_index_github:hover{
-        transform: rotate(-15deg);     
+    .index_icon {
+        width: 50%;
     }
 }
 
@@ -324,9 +375,9 @@
 /* The CSS Below is for Desktop and Larger Devices */
 @media only screen and (min-width:992px) {
 
-    .index_container { 
+    .index_container {
         background: linear-gradient(90deg, rgb(34, 40, 49) 55%, rgb(238, 238, 238) 55%);
-        height:100vh;
+        height: 100vh;
     }
 
     .index_image_me {
@@ -335,13 +386,13 @@
         bottom: 25%;
         right: 10%;
         filter: drop-shadow(0px 0px 14px #000000);
-        
+
     }
 
 
     .full_name_text {
         position: absolute;
-        top:25%;
+        top: 25%;
         left: 15%;
         font-family: "Open Sans", sans-serif;
         color: #EEEEEE;
@@ -380,14 +431,14 @@
 
     .job_role_text {
         position: absolute;
-        top:34%;
+        top: 34%;
         left: 15.1%;
         font-size: 1.5vw;
         font-family: "Open Sans", sans-serif;
         font-weight: 500;
         font-style: normal;
         color: #EEEEEE;
-        
+
     }
 
     .full_stop_text {
@@ -396,7 +447,7 @@
 
     .index_hire_me_button {
         position: absolute;
-        top:42%;
+        top: 42%;
         left: 15%;
         padding-top: 1%;
         padding-bottom: 1%;
@@ -419,7 +470,7 @@
 
     .index_explore_more_button {
         position: absolute;
-        top:42%;
+        top: 42%;
         left: 26%;
         padding-top: 1%;
         padding-bottom: 1%;
@@ -440,32 +491,41 @@
         transform: translateY(-3px);
     }
 
-    
-    .socials_index_linked{
-        filter: drop-shadow(0px 0px 5px #000000);
-        position:absolute;
-        right:28%;
-        width:10%;
-        top:60%;
-        transform: rotate(-15deg);
-        transition: all 0.25s ease-in-out;
-    }
-    .socials_index_linked:hover {
-        transform: rotate(15deg);     
-    }
-
-    .socials_index_github {
-        filter: drop-shadow(0px 0px 5px #000000);
-        position:absolute;
-        right:6%;
-        width:10%;
-        top:60%;
-        transform: rotate(15deg);
-        transition: all 0.25s ease-in-out;
+    .linked_in_button {
+        position: absolute;
+        top: 78%;
+        left: 65%;
+        padding: 1%;
+        border: solid 1px #EEEEEE;
+        outline: none;
+        background-color: #31363F;
+        color: #eee;
+        border-radius: 7px;
+        font-weight: 500;
+        font-size: 1vw;
+        cursor: pointer;
+        transition: all 0.25s ease-out;
+        font-family: "Open Sans", sans-serif;
     }
 
-    .socials_index_github:hover{
-        transform: rotate(-15deg);     
+    .github_button {
+        position: absolute;
+        top: 78%;
+        right: 10%;
+        padding: 1%;
+        border: solid 1px #EEEEEE;
+        outline: none;
+        background-color: #31363F;
+        color: #eee;
+        border-radius: 7px;
+        font-weight: 500;
+        font-size: 1vw;
+        cursor: pointer;
+        transition: all 0.25s ease-out;
+        font-family: "Open Sans", sans-serif;
     }
 
+    .index_icon {
+        width: 100%;
+    }
 }

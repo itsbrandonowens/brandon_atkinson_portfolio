@@ -1,6 +1,5 @@
 import React from 'react'
 import '../styles/About.css'
-import brandon_cv from './brandon_cv.pdf'
 
 const About = () => {
 
@@ -33,8 +32,8 @@ const About = () => {
                          I love to go to the gym and play 5-aside with my friends whenever I get the chance. 
                     </p>
                 </div>
-
             </div>
+
         </div>
     )
 }

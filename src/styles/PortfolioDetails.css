@@ -2,23 +2,22 @@
 /* The CSS Below is for Mobile in portrait orientation*/
 @media only screen and (max-width: 649px) {
     .portfolio_details_container{
-        margin-left:6%;
         }
         
         .back_button {
             position: absolute;
-            top:5%;
-            left: 15%;
+            top:2%;
+            left: 3%;
             padding-top: 1%;
             padding-bottom: 1%;
-            width: 10%;
+            width: 20%;
             border: solid 1px #EEEEEE;
             outline: none;
             background-color: #31363F;
             color: #eee;
             border-radius: 7px;
             font-weight: 500;
-            font-size: 1vw;
+            font-size: 3vw;
             cursor: pointer;
             transition: all 0.25s ease-out;
             font-family: "Open Sans", sans-serif;
@@ -29,7 +28,8 @@
         }
     
         .p_detail_title {
-            font-size: 2.5vw;
+            font-size: 5vw;
+            margin-top:15%;
             text-align: center;
             font-weight: 700;
             color: rgb(68, 68, 68);
@@ -37,7 +37,7 @@
         }
     
         .p_detail_subtitle {
-            font-size: 1.5vw;
+            font-size: 4vw;
             margin-top: -2%;
             text-align: center;
             font-weight: 700;
@@ -53,31 +53,31 @@
         }
     
         .p_image {
-            width: 60%;
-            margin-left: 20%;
+            width: 80%;
+            margin-left: 10%;
             margin-top: 2%;
             filter: drop-shadow(0px 0px 5px #000000);
             border-radius: 20px;
         }
     
         .p_details_container {
-            margin-left: 20%;
+            margin-left: 10%;
             margin-top:2%;
-            width: 60%;
+            width: 80%;
     
         }
     
         .p_details_text {
             text-align: justify;
             font-family: "Open Sans", sans-serif;
-            font-size: 1vw;
+            font-size: 3vw;
             color:#EEEEEE;
         }
     
     
         .tech_stack_header {
             font-family: "Open Sans", sans-serif;
-            font-size: 1.2vw;
+            font-size: 4vw;
             margin-top: 5%;
             text-align: center;
             text-decoration: underline;
@@ -92,7 +92,7 @@
     
         .tech_stack_used_image {
             margin-top: 1%;
-            width: 5%;
+            width: 15%;
             margin-left: 2%;
             
         }
@@ -106,11 +106,12 @@
         .text_link:hover {
             color: #507b7d;
         }
+
         .back_to_top{
             cursor: pointer;
             text-align: center;
             background: linear-gradient(180deg, #222831 0%, #31363F 25%);
-            font-size:0.8vw;
+            font-size:4vw;
             padding:1%;
             font-family: "Open Sans", sans-serif;
             font-weight:1000;
@@ -119,13 +120,13 @@
     
         .prev_button{
             margin-top:2%;
-            margin-left:30%;
+            margin-left:15%;
             padding-top: 0.5%;
             padding-bottom: 0.5%;
-            width: 5%;
+            width: 20%;
             color: #eee;
             font-weight: 500;
-            font-size: 0.8vw;
+            font-size: 4vw;
             cursor: pointer;
             transition: all 0.25s ease-out;
             font-family: "Open Sans", sans-serif;
@@ -145,10 +146,10 @@
             margin-left:30%;
             padding-top: 0.5%;
             padding-bottom: 0.5%;
-            width: 5%;
+            width: 20%;
             color: #eee;
             font-weight: 500;
-            font-size: 0.8vw;
+            font-size: 4vw;
             cursor: pointer;
             transition: all 0.25s ease-out;
             font-family: "Open Sans", sans-serif;

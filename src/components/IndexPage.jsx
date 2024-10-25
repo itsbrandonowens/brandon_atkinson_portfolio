@@ -2,14 +2,13 @@ import React from 'react'
 import '../styles/IndexPage.css'
 import { Link } from 'react-router-dom';
 import IndexPicture from './images/index_me.png'
-import linkedInLogo from './images/linkedInLogo.png'
-import githubLogo from './images/githubLogo.png'
+import linked_in_logo from './images/linkedin_icon.png'
+import github_logo from './images/github_icon.png'
 import brandon_cv from './brandon_cv.pdf'
 
 const IndexPage = () => {
-    //space between icon and text in navbar needs fixed when sizing is different 
-    //improve mobile css
-
+    //add more to about section
+   
     // Gets the "about" titles id and scrolls until that is on the top of the view
     const aboutHandler = () => {
         document.getElementById('about').scrollIntoView({ behavior: "smooth" });
@@ -26,16 +25,9 @@ const IndexPage = () => {
 
             <img src={IndexPicture} className="index_image_me" alt="Brandon Atkinson Image"></img>
 
-
-            
-                <a href="https://www.linkedin.com/in/brandondoatkinson/" target="_blank" >
-                    <img src={linkedInLogo} className="socials_index_linked" alt="Brandon Atkinson Image"></img>
-                </a>
-                <a href="https://github.com/itsbrandonowens" target="_blank" >
-                    <img src={githubLogo} className="socials_index_github" alt="Brandon Atkinson Image"></img>
-                </a>
-
-            
+                <a className="no_list_style" href="https://www.linkedin.com/in/brandondoatkinson/" target="_blank" ><button className="linked_in_button">  <img src={linked_in_logo} className="index_icon" alt="contact_icon"></img> </button> </a>
+                <a className="no_list_style" href="https://github.com/itsbrandonowens" target="_blank" ><button className="github_button"> <img src={github_logo} className="index_icon" alt="contact_icon"></img> </button> </a>
+  
         </div >
 
     )
