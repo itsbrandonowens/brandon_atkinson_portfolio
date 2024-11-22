@@ -270,18 +270,19 @@
         font-weight: 600;
         color: #76ABAE;
         margin-bottom: 8%;
+        
     }
 
     .about_navbar_list {
         text-decoration: none;
-        list-style: none;     
+        list-style: none;   
     }
 
     .about_navbar_item {
         font-weight: 500;
         font-size: 1vw;
         color: #EEEEEE;
-        display: flex;
+        display: flex;     
         margin-top: -10%;
         transition: all 0.25s ease-in-out;
     }
