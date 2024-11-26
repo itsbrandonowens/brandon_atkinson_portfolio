@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/brandon_atkinson_portfolio/static/css/main.cf4c8a31.css",
+    "main.css": "/brandon_atkinson_portfolio/static/css/main.f98b0dfb.css",
     "main.js": "/brandon_atkinson_portfolio/static/js/main.41258745.js",
     "static/js/453.593aa778.chunk.js": "/brandon_atkinson_portfolio/static/js/453.593aa778.chunk.js",
     "static/media/LastOrdersPortf.png": "/brandon_atkinson_portfolio/static/media/LastOrdersPortf.99bbb58c189790b8ccdc.png",
@@ -46,12 +46,12 @@
     "static/media/FDMPortf.png": "/brandon_atkinson_portfolio/static/media/FDMPortf.dc4ebe38c451dc50ebb6.png",
     "static/media/frontendimg.png": "/brandon_atkinson_portfolio/static/media/frontendimg.9b8ffe94e61dd5ad3e65.png",
     "index.html": "/brandon_atkinson_portfolio/index.html",
-    "main.cf4c8a31.css.map": "/brandon_atkinson_portfolio/static/css/main.cf4c8a31.css.map",
+    "main.f98b0dfb.css.map": "/brandon_atkinson_portfolio/static/css/main.f98b0dfb.css.map",
     "main.41258745.js.map": "/brandon_atkinson_portfolio/static/js/main.41258745.js.map",
     "453.593aa778.chunk.js.map": "/brandon_atkinson_portfolio/static/js/453.593aa778.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf4c8a31.css",
+    "static/css/main.f98b0dfb.css",
     "static/js/main.41258745.js"
   ]
 }
