@@ -23,6 +23,7 @@ const IndexPage = () => {
             <h2 className="job_role_text">Full-Stack Software Developer</h2>
             <a href={brandon_cv} target="_blank" ><button className="index_hire_me_button"> Download CV </button></a>
             <button className="index_explore_more_button" onClick={aboutHandler}> Explore More </button>
+            
             <h2 className='creator_text'>creator of</h2>
             <img src={loLogo} className='creator_lo_logo' alt="Last Orders Logo"></img>
 

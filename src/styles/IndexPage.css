@@ -429,7 +429,7 @@
 
     .full_name_text {
         position: absolute;
-        top: 25%;
+        margin-top: 14%;
         left: 15%;
         font-family: "Open Sans", sans-serif;
         color: #EEEEEE;
@@ -468,7 +468,7 @@
 
     .job_role_text {
         position: absolute;
-        top: 34%;
+        margin-top: 17.5%;
         left: 15.1%;
         font-size: 1.5vw;
         font-family: "Open Sans", sans-serif;
@@ -484,7 +484,7 @@
 
     .index_hire_me_button {
         position: absolute;
-        top: 42%;
+        margin-top: 20%;
         left: 15%;
         padding-top: 1%;
         padding-bottom: 1%;
@@ -507,7 +507,7 @@
 
     .index_explore_more_button {
         position: absolute;
-        top: 42%;
+        margin-top: 20%;
         left: 26%;
         padding-top: 1%;
         padding-bottom: 1%;
