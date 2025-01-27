@@ -40,10 +40,10 @@ const Contact = () => {
                 console.error('Error sending email:', error);
             });
 
-    }
+    }  
     return (
         <div className="contact_container">
-            <h1 className="contact_title" id="contact">CONTACT</h1>  
+            <h1 className="contact_title" id="contact">CONTACT ME</h1>  
                 <form onSubmit={handleSubmit} className='contact_form'>
                     <input
                         className="contact_name"
@@ -51,6 +51,7 @@ const Contact = () => {
                         placeholder="Your Name"
                         value={name}
                         onChange={(e) => setName(e.target.value)}
+                        id = "name"
                     />
                     <input
                     className="contact_email"
