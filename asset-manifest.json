@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/brandon_atkinson_portfolio/static/css/main.46b9ef6e.css",
-    "main.js": "/brandon_atkinson_portfolio/static/js/main.8a08cdab.js",
+    "main.css": "/brandon_atkinson_portfolio/static/css/main.620bae34.css",
+    "main.js": "/brandon_atkinson_portfolio/static/js/main.b30ff662.js",
     "static/js/453.593aa778.chunk.js": "/brandon_atkinson_portfolio/static/js/453.593aa778.chunk.js",
     "static/media/LastOrdersPortf.png": "/brandon_atkinson_portfolio/static/media/LastOrdersPortf.99bbb58c189790b8ccdc.png",
     "static/media/loScreenshot5.png": "/brandon_atkinson_portfolio/static/media/loScreenshot5.7d47d6ec0f19a13d6236.png",
@@ -10,6 +10,7 @@
     "static/media/loScreenshot1.png": "/brandon_atkinson_portfolio/static/media/loScreenshot1.4679ec842a33287699b7.png",
     "static/media/loScreenshot3.png": "/brandon_atkinson_portfolio/static/media/loScreenshot3.96d0139d93f381f4707e.png",
     "static/media/loScreenshot2.png": "/brandon_atkinson_portfolio/static/media/loScreenshot2.b6bfd6f971c46777eb63.png",
+    "static/media/about_picture.jpg": "/brandon_atkinson_portfolio/static/media/about_picture.9765cd688de6955acf77.jpg",
     "static/media/loScreenshot7.png": "/brandon_atkinson_portfolio/static/media/loScreenshot7.15cd396feba41fe0fd9f.png",
     "static/media/chessScreenshot2.png": "/brandon_atkinson_portfolio/static/media/chessScreenshot2.c286537a98f3d6d9b9f8.png",
     "static/media/lmsScreenshot1.png": "/brandon_atkinson_portfolio/static/media/lmsScreenshot1.499a31554f660d123de6.png",
@@ -46,12 +47,12 @@
     "static/media/FDMPortf.png": "/brandon_atkinson_portfolio/static/media/FDMPortf.dc4ebe38c451dc50ebb6.png",
     "static/media/frontendimg.png": "/brandon_atkinson_portfolio/static/media/frontendimg.9b8ffe94e61dd5ad3e65.png",
     "index.html": "/brandon_atkinson_portfolio/index.html",
-    "main.46b9ef6e.css.map": "/brandon_atkinson_portfolio/static/css/main.46b9ef6e.css.map",
-    "main.8a08cdab.js.map": "/brandon_atkinson_portfolio/static/js/main.8a08cdab.js.map",
+    "main.620bae34.css.map": "/brandon_atkinson_portfolio/static/css/main.620bae34.css.map",
+    "main.b30ff662.js.map": "/brandon_atkinson_portfolio/static/js/main.b30ff662.js.map",
     "453.593aa778.chunk.js.map": "/brandon_atkinson_portfolio/static/js/453.593aa778.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.46b9ef6e.css",
-    "static/js/main.8a08cdab.js"
+    "static/css/main.620bae34.css",
+    "static/js/main.b30ff662.js"
   ]
 }
