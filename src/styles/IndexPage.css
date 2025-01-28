@@ -213,7 +213,7 @@
     .index_image_me {
         width: 25%;
         position: absolute;
-        margin-top:24%;
+        margin-top:8%;
         right: 10%;
         filter: drop-shadow(0px 0px 14px #000000);
 
@@ -222,7 +222,7 @@
 
     .full_name_text {
         position: absolute;
-        margin-top: 23%;
+        margin-top: 13%;
         left: 15%;
         font-family: "Open Sans", sans-serif;
         color: #EEEEEE;
@@ -261,7 +261,7 @@
 
     .job_role_text {
         position: absolute;
-        margin-top: 27%;
+        margin-top: 17%;
         left: 15.1%;
         font-size: 1.5vw;
         font-family: "Open Sans", sans-serif;
@@ -277,7 +277,7 @@
 
     .index_hire_me_button {
         position: absolute;
-        margin-top:30%;
+        margin-top:20%;
         left: 15%;
         padding-top: 1%;
         padding-bottom: 1%;
@@ -300,7 +300,7 @@
 
     .index_explore_more_button {
         position: absolute;
-        margin-top: 30%;
+        margin-top: 20%;
         left: 26%;
         padding-top: 1%;
         padding-bottom: 1%;
@@ -323,7 +323,7 @@
 
     .linked_in_button {
         position: absolute;
-        margin-top: 52%;
+        margin-top: 35%;
         left: 65%;
         padding: 1%;
         width:10%;
@@ -341,7 +341,7 @@
 
     .github_button {
         position: absolute;
-        margin-top: 52%;
+        margin-top: 35%;
         right:10%;
         padding: 1%;
         width:10%;
@@ -363,7 +363,7 @@
 
     .creator_text{
         position: absolute;
-        margin-top:35%;
+        margin-top:25%;
         left: 15.5%;
         font-family: "Open Sans", sans-serif;
         color: #EEEEEE;
@@ -376,7 +376,7 @@
         width:5%;
         position:absolute;
         left:21%;
-        margin-top:34%;
+        margin-top:24.5%;
         filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
         }
 }

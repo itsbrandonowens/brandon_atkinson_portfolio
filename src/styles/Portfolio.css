@@ -3,7 +3,7 @@
 @media only screen and (max-width: 649px) {
   .portfolio_container {
     margin-top: 20%;
-    height: 550vw;
+    height: 480vw;
   }
 
   .portfolio_title {
@@ -21,7 +21,7 @@
     display: grid;
     width: 80%;
     margin-left: 9%;
-    row-gap:5%;
+    row-gap:2%;
   }
 
   .portfolio_mini_grid {

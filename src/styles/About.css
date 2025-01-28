@@ -1,21 +1,12 @@
 /* --------------------------------------------------------------------------------------------------------------------------------------- */
 /* The CSS Below is for Mobile in portrait orientation*/
 @media only screen and (max-width: 649px) {
+    
     .about_container {
         margin-top: 10%;
-        height: 60vh;
-    }
-
-    .about_grid {
-        display: grid;
-        grid-template-columns: 30% 50%;
-        margin-left: 5%;
-        column-gap: 40px;
-    }
-
-    .about_grid_item {
-        text-align: center;
+        height: 90vh;
         
+
     }
 
     .about_title {
@@ -25,71 +16,33 @@
         font-weight: 600;
         color: #EEEEEE;
     }
+    
+
+    .about_image{
+        width:50%;
+        margin-left:25%;
+        filter: drop-shadow(0px 0px 3px #ffffff);
+        margin-top:5%;
+    }
 
     .about_text {
         font-size: 3vw;
         font-family: "Open Sans", sans-serif;
         font-weight: 500;
         justify-content: center;
-        width: 90%;
-        margin-left: 5%;
+        width:90%;
+        margin-left:5%;
         color: #EEEEEE;
+        padding:0% 2% 0% 2%;
+        margin-top:4%;
+        
     }
 
-    .about_grid_text{
-        font-size: 3vw;
-        font-family: "Open Sans", sans-serif;
-        font-weight: 500;
-        color: #EEEEEE;
-        margin-top:-6%;
-    }
-
-    .download_cv_button {
-        position: absolute;
-        margin-top: 2%;
-        margin-left: 42%;
-        padding-top: 1%;
-        padding-bottom: 1%;
-        width: 10%;
-        border: solid rgb(238, 238, 238);
-        outline: none;
-        background-color: #76ABAE;
-        color: #eeeeee;
-        border-radius: 7px;
-        font-weight: 500;
-        cursor: pointer;
-        transition: all 0.25s ease-out;
-        font-size: 1vw;
-        font-family: "Open Sans", sans-serif;
-    }
-
-    .download_cv_button:hover {
-        transform: translateY(-3px);
-    }
-
-    .about_subtitle {
-        font-size: 3.5vw;
-        font-family: "Open Sans", sans-serif;
-        font-weight: 600;
+    .hello_text{
         color: #76ABAE;
-        margin-bottom: 10%;
+        font-size:4vw;
+        font-weight:700;
     }
-
-    .about_navbar_list {
-        text-decoration: none;
-        list-style: none;     
-    }
-
-    .about_navbar_item {
-        font-weight: 500;
-        font-size: 2vw;
-        color: #EEEEEE;
-        display: flex;
-        margin-top: -10%;
-        margin-left:-10%;
-        transition: all 0.25s ease-in-out;
-    }
-
 
 }
 
@@ -99,21 +52,9 @@
 
     .about_container {
         margin-top: 10%;
-        height: 80vh;
+        height: 90vh;
         margin-left: 6%;
 
-    }
-
-    .about_grid {
-        display: grid;
-        grid-template-columns: 30% 50%;
-        margin-left: 20%;
-        column-gap: 10px;
-    }
-
-    .about_grid_item {
-        text-align: center;
-        
     }
 
     .about_title {
@@ -123,71 +64,34 @@
         font-weight: 600;
         color: #EEEEEE;
     }
+    .about_grid_container{
+        display:grid;
+        grid-template-columns: 30% 70%;
+        width:90%;
+        margin-left:8%;
+    }
+
+    .about_image{
+        width:100%;
+        filter: drop-shadow(0px 0px 3px #ffffff);
+    }
 
     .about_text {
-        font-size: 1vw;
-        font-family: "Open Sans", sans-serif;
-        font-weight: 500;
-        justify-content: center;
-        width: 70%;
-        margin-left: 20%;
-        color: #EEEEEE;
-    }
-
-    .about_grid_text{
-        font-size: 1vw;
-        font-family: "Open Sans", sans-serif;
-        font-weight: 500;
-        justify-content: center;
-        color: #EEEEEE;
-        margin-top:-6%;
-    }
-
-    .download_cv_button {
-        position: absolute;
-        margin-top: 2%;
-        margin-left: 42%;
-        padding-top: 1%;
-        padding-bottom: 1%;
-        width: 10%;
-        border: solid rgb(238, 238, 238);
-        outline: none;
-        background-color: #76ABAE;
-        color: #eeeeee;
-        border-radius: 7px;
-        font-weight: 500;
-        cursor: pointer;
-        transition: all 0.25s ease-out;
-        font-size: 1vw;
-        font-family: "Open Sans", sans-serif;
-    }
-
-    .download_cv_button:hover {
-        transform: translateY(-3px);
-    }
-
-    .about_subtitle {
         font-size: 1.2vw;
         font-family: "Open Sans", sans-serif;
-        font-weight: 600;
-        color: #76ABAE;
-        margin-bottom: 8%;
-    }
-
-    .about_navbar_list {
-        text-decoration: none;
-        list-style: none;     
-    }
-
-    .about_navbar_item {
         font-weight: 500;
-        font-size: 1vw;
+        justify-content: center;
         color: #EEEEEE;
-        display: flex;
-        margin-top: -10%;
-        transition: all 0.25s ease-in-out;
+        margin-top:0%;
+        padding:0% 2% 0% 2%;
+        
     }
 
+    .hello_text{
+        color: #76ABAE;
+        font-size:1.5vw;
+        font-weight:700;
+    }
 
 }
 
@@ -202,18 +106,6 @@
 
     }
 
-    .about_grid {
-        display: grid;
-        grid-template-columns: 30% 50%;
-        margin-left: 20%;
-        column-gap: 10px;
-    }
-
-    .about_grid_item {
-        text-align: center;
-        
-    }
-
     .about_title {
         font-size: 2vw;
         text-align: center;
@@ -221,71 +113,36 @@
         font-weight: 600;
         color: #EEEEEE;
     }
+    .about_grid_container{
+        display:grid;
+        grid-template-columns: 30% 70%;
+        width:90%;
+        margin-left:8%;
+    }
+
+    .about_image{
+        width:100%;
+        filter: drop-shadow(0px 0px 3px #ffffff);
+    }
 
     .about_text {
-        font-size: 1vw;
-        font-family: "Open Sans", sans-serif;
-        font-weight: 500;
-        justify-content: center;
-        width: 70%;
-        margin-left: 20%;
-        color: #EEEEEE;
-    }
-
-    .about_grid_text{
-        font-size: 1vw;
-        font-family: "Open Sans", sans-serif;
-        font-weight: 500;
-        justify-content: center;
-        color: #EEEEEE;
-        margin-top:-6%;
-    }
-
-    .download_cv_button {
-        position: absolute;
-        margin-top: 2%;
-        margin-left: 42%;
-        padding-top: 1%;
-        padding-bottom: 1%;
-        width: 10%;
-        border: solid rgb(238, 238, 238);
-        outline: none;
-        background-color: #76ABAE;
-        color: #eeeeee;
-        border-radius: 7px;
-        font-weight: 500;
-        cursor: pointer;
-        transition: all 0.25s ease-out;
-        font-size: 1vw;
-        font-family: "Open Sans", sans-serif;
-    }
-
-    .download_cv_button:hover {
-        transform: translateY(-3px);
-    }
-
-    .about_subtitle {
         font-size: 1.2vw;
         font-family: "Open Sans", sans-serif;
-        font-weight: 600;
-        color: #76ABAE;
-        margin-bottom: 8%;
+        font-weight: 500;
+        justify-content: center;
+        color: #EEEEEE;
+        margin-top:0%;
+        padding:0% 2% 0% 2%;
         
     }
 
-    .about_navbar_list {
-        text-decoration: none;
-        list-style: none;   
+    .hello_text{
+        color: #76ABAE;
+        font-size:1.5vw;
+        font-weight:700;
     }
 
-    .about_navbar_item {
-        font-weight: 500;
-        font-size: 1vw;
-        color: #EEEEEE;
-        display: flex;     
-        margin-top: -10%;
-        transition: all 0.25s ease-in-out;
-    }
+
 
 
 }
