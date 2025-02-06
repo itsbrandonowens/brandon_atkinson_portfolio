@@ -17,7 +17,7 @@ import { motion } from "framer-motion"
 
 // dots underneath image to show what image its on that are clickable
 // add arrows to images 
-//make it scroll to top of page when opened
+
 
 class LOImageSlider extends React.Component {
     state = {
@@ -61,8 +61,9 @@ class LOImageSlider extends React.Component {
         const { images, currentIndex } = this.state;
         const prevIndex = (currentIndex - 1);
         if (currentIndex > 0) {
-
             this.setState({ currentIndex: prevIndex })
+            this.stopSlider();
+            this.startSlider();
         }
         console.log("Prev");
     };
@@ -73,6 +74,8 @@ class LOImageSlider extends React.Component {
         if (currentIndex < (images.length - 1)) {
 
             this.setState({ currentIndex: nextIndex })
+            this.stopSlider();
+            this.startSlider();
         }
         console.log("Next");
     };
@@ -94,8 +97,8 @@ class LOImageSlider extends React.Component {
                     <a href="https://lastordersgame.com" target="_blank" style={{ color: "black", textDecoration: 'none' }}><h1 className="p_detail_subtitle"> lastordersgame.com </h1></a>
 
                     <a href="https://lastordersgame.com" target="_blank" style={{ color: "black", textDecoration: 'none' }}> <img className="p_image" src={currentImage} alt={`Image ${currentIndex}`} /> </a>
-                    <button className="prev_button" onClick={this.prevHandler}> Prev </button>
-                    <button className="next_button" onClick={this.nextHandler}> Next </button>
+                    <button className="prev_button" onClick={this.prevHandler}> &lt; </button>
+                    <button className="next_button" onClick={this.nextHandler}> &gt; </button>
                     <div className="p_details_container">
                         <p className="p_details_text">
                             Last Orders is a card-based drinking game that I started creating in August of 2023.

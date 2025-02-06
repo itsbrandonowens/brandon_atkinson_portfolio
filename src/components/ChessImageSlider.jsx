@@ -54,6 +54,8 @@ class ChessImageSlider extends React.Component {
         if (currentIndex > 0) {
 
             this.setState({ currentIndex: prevIndex })
+            this.stopSlider();
+            this.startSlider();
         }
         console.log("Prev");
     };
@@ -64,6 +66,8 @@ class ChessImageSlider extends React.Component {
         if (currentIndex < (images.length - 1)) {
 
             this.setState({ currentIndex: nextIndex })
+            this.stopSlider();
+            this.startSlider();
         }
         console.log("Next");
     };

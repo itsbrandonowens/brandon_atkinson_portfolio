@@ -191,10 +191,11 @@
     font-weight: 500;
     font-size: 1vw;
     color: #EEEEEE;
-    display: flex;
+    display: inline-flex;
     width: 70%;
     border-radius: 10px;
     margin-left: 5%;
+    
     margin-top:-10%;
     transition: all 0.25s ease-in-out;
 }
@@ -213,6 +214,7 @@
 .no_list_style{
     text-decoration: none;
     list-style: none;
+    
 }
 
 .navbar_icon {
@@ -221,6 +223,7 @@
     left:2%;
     height: 1.6vw;
     float: left;
+    
 }
 
 .navbar_subtitles {
