@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/brandon_atkinson_portfolio/static/css/main.620bae34.css",
-    "main.js": "/brandon_atkinson_portfolio/static/js/main.b30ff662.js",
+    "main.css": "/brandon_atkinson_portfolio/static/css/main.a6a0bf6a.css",
+    "main.js": "/brandon_atkinson_portfolio/static/js/main.f3a12fd3.js",
     "static/js/453.593aa778.chunk.js": "/brandon_atkinson_portfolio/static/js/453.593aa778.chunk.js",
     "static/media/LastOrdersPortf.png": "/brandon_atkinson_portfolio/static/media/LastOrdersPortf.99bbb58c189790b8ccdc.png",
     "static/media/loScreenshot5.png": "/brandon_atkinson_portfolio/static/media/loScreenshot5.7d47d6ec0f19a13d6236.png",
@@ -22,9 +22,9 @@
     "static/media/tttScreenshot1.png": "/brandon_atkinson_portfolio/static/media/tttScreenshot1.98ed8ea9c4c7bda7b655.png",
     "static/media/tmsScreenshot2.png": "/brandon_atkinson_portfolio/static/media/tmsScreenshot2.4860cd3018cbf885e701.png",
     "static/media/fdmScreenshot2.png": "/brandon_atkinson_portfolio/static/media/fdmScreenshot2.3fd2958a64240369bd1a.png",
+    "static/media/brandon_cv.pdf": "/brandon_atkinson_portfolio/static/media/brandon_cv.8659ffe05ee71f82411b.pdf",
     "static/media/lmsScreenshot3.png": "/brandon_atkinson_portfolio/static/media/lmsScreenshot3.7f94f143fe54b196e6f5.png",
     "static/media/fdmScreenshot1.png": "/brandon_atkinson_portfolio/static/media/fdmScreenshot1.22db6de059828bd8450d.png",
-    "static/media/brandon_cv.pdf": "/brandon_atkinson_portfolio/static/media/brandon_cv.1209a0ed08902c8937c6.pdf",
     "static/media/index_me.png": "/brandon_atkinson_portfolio/static/media/index_me.d0f04e246fac3991d31d.png",
     "static/media/chessScreenshot3.png": "/brandon_atkinson_portfolio/static/media/chessScreenshot3.57e3f1d5a0706ae3a84e.png",
     "static/media/javaReactLogo.png": "/brandon_atkinson_portfolio/static/media/javaReactLogo.ab71fa792109f65d6121.png",
@@ -47,12 +47,12 @@
     "static/media/FDMPortf.png": "/brandon_atkinson_portfolio/static/media/FDMPortf.dc4ebe38c451dc50ebb6.png",
     "static/media/frontendimg.png": "/brandon_atkinson_portfolio/static/media/frontendimg.9b8ffe94e61dd5ad3e65.png",
     "index.html": "/brandon_atkinson_portfolio/index.html",
-    "main.620bae34.css.map": "/brandon_atkinson_portfolio/static/css/main.620bae34.css.map",
-    "main.b30ff662.js.map": "/brandon_atkinson_portfolio/static/js/main.b30ff662.js.map",
+    "main.a6a0bf6a.css.map": "/brandon_atkinson_portfolio/static/css/main.a6a0bf6a.css.map",
+    "main.f3a12fd3.js.map": "/brandon_atkinson_portfolio/static/js/main.f3a12fd3.js.map",
     "453.593aa778.chunk.js.map": "/brandon_atkinson_portfolio/static/js/453.593aa778.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.620bae34.css",
-    "static/js/main.b30ff662.js"
+    "static/css/main.a6a0bf6a.css",
+    "static/js/main.f3a12fd3.js"
   ]
 }
