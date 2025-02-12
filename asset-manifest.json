@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/brandon_atkinson_portfolio/static/css/main.a6a0bf6a.css",
-    "main.js": "/brandon_atkinson_portfolio/static/js/main.f3a12fd3.js",
+    "main.css": "/brandon_atkinson_portfolio/static/css/main.755ea874.css",
+    "main.js": "/brandon_atkinson_portfolio/static/js/main.d81d28e5.js",
     "static/js/453.593aa778.chunk.js": "/brandon_atkinson_portfolio/static/js/453.593aa778.chunk.js",
+    "static/media/loScreenshot6.png": "/brandon_atkinson_portfolio/static/media/loScreenshot6.ec5618995b9ac6d49d59.png",
+    "static/media/loScreenshot5.png": "/brandon_atkinson_portfolio/static/media/loScreenshot5.43677c644b0e0713aa9a.png",
+    "static/media/loScreenshot4.png": "/brandon_atkinson_portfolio/static/media/loScreenshot4.c26b0bf21690302fd708.png",
+    "static/media/loScreenshot3.png": "/brandon_atkinson_portfolio/static/media/loScreenshot3.e0d944cb4ecc10cb038f.png",
+    "static/media/loScreenshot1.png": "/brandon_atkinson_portfolio/static/media/loScreenshot1.faceea4e0abd0e996e49.png",
     "static/media/LastOrdersPortf.png": "/brandon_atkinson_portfolio/static/media/LastOrdersPortf.99bbb58c189790b8ccdc.png",
-    "static/media/loScreenshot5.png": "/brandon_atkinson_portfolio/static/media/loScreenshot5.7d47d6ec0f19a13d6236.png",
-    "static/media/loScreenshot4.png": "/brandon_atkinson_portfolio/static/media/loScreenshot4.495bfde4a83f3176d358.png",
-    "static/media/loScreenshot6.png": "/brandon_atkinson_portfolio/static/media/loScreenshot6.3f2f8c6c228b0b19afd7.png",
-    "static/media/loScreenshot1.png": "/brandon_atkinson_portfolio/static/media/loScreenshot1.4679ec842a33287699b7.png",
-    "static/media/loScreenshot3.png": "/brandon_atkinson_portfolio/static/media/loScreenshot3.96d0139d93f381f4707e.png",
-    "static/media/loScreenshot2.png": "/brandon_atkinson_portfolio/static/media/loScreenshot2.b6bfd6f971c46777eb63.png",
+    "static/media/loScreenshot7.png": "/brandon_atkinson_portfolio/static/media/loScreenshot7.67f72aecac7d7b55a2fa.png",
+    "static/media/loScreenshot2.png": "/brandon_atkinson_portfolio/static/media/loScreenshot2.0972be0b5d36bb87fe9a.png",
     "static/media/about_picture.jpg": "/brandon_atkinson_portfolio/static/media/about_picture.9765cd688de6955acf77.jpg",
-    "static/media/loScreenshot7.png": "/brandon_atkinson_portfolio/static/media/loScreenshot7.15cd396feba41fe0fd9f.png",
     "static/media/chessScreenshot2.png": "/brandon_atkinson_portfolio/static/media/chessScreenshot2.c286537a98f3d6d9b9f8.png",
     "static/media/lmsScreenshot1.png": "/brandon_atkinson_portfolio/static/media/lmsScreenshot1.499a31554f660d123de6.png",
     "static/media/chessScreenshot1.png": "/brandon_atkinson_portfolio/static/media/chessScreenshot1.1219b8f1330532d70e41.png",
@@ -47,12 +47,12 @@
     "static/media/FDMPortf.png": "/brandon_atkinson_portfolio/static/media/FDMPortf.dc4ebe38c451dc50ebb6.png",
     "static/media/frontendimg.png": "/brandon_atkinson_portfolio/static/media/frontendimg.9b8ffe94e61dd5ad3e65.png",
     "index.html": "/brandon_atkinson_portfolio/index.html",
-    "main.a6a0bf6a.css.map": "/brandon_atkinson_portfolio/static/css/main.a6a0bf6a.css.map",
-    "main.f3a12fd3.js.map": "/brandon_atkinson_portfolio/static/js/main.f3a12fd3.js.map",
+    "main.755ea874.css.map": "/brandon_atkinson_portfolio/static/css/main.755ea874.css.map",
+    "main.d81d28e5.js.map": "/brandon_atkinson_portfolio/static/js/main.d81d28e5.js.map",
     "453.593aa778.chunk.js.map": "/brandon_atkinson_portfolio/static/js/453.593aa778.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a6a0bf6a.css",
-    "static/js/main.f3a12fd3.js"
+    "static/css/main.755ea874.css",
+    "static/js/main.d81d28e5.js"
   ]
 }
