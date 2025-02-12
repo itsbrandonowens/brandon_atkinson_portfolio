@@ -209,6 +209,7 @@
     margin-left:15%;
     text-decoration: none;
     list-style: none;
+    font-family: "Open Sans", serif;
 }
 
 .no_list_style{
@@ -218,18 +219,16 @@
 }
 
 .navbar_icon {
-    position:fixed;
-    margin-top:0.8%;
-    left:2%;
+    position:absolute;
+    margin-top:6.5%;
     height: 1.6vw;
-    float: left;
+    left:10%;
     
 }
 
 .navbar_subtitles {
     color: #76ABAE;
     font-size: 1.2vw;
-    text-align: left;
     margin-left: 9%;
     margin-bottom: 12%;
     font-family: "Open Sans", sans-serif;
