@@ -9,6 +9,7 @@ import LMSImageSlider from './components/LMSImageSlider'
 import ChessImageSlider from './components/ChessImageSlider';
 import TMSImageSlider from './components/TMSImageSlider';
 import Navbar from './components/Navbar';
+import DSSpotImageSlider from './components/DSSpotImageSlider';
 function App() {
   return (
     <div className="App">
@@ -23,6 +24,7 @@ function App() {
         <Route path='/tictactoe' element={<TTTImageSlider />} />
         <Route path='/chess_game' element={<ChessImageSlider />} />
         <Route path='/tms_project' element={<TMSImageSlider />} />
+        <Route path='/discord_spotify' element={<DSSpotImageSlider />} />
       </Routes>
     </div>
 
